@@ -1,0 +1,6 @@
+parameters c_2_0_0=0.5 r_2_2_0=10.0 c_vo_02=1.0 r_vo_02=40.0 \
+    gm_vo_1=0.01092684 c_vin_vo_01=0.9999974 r_vin_vo_01=40.0 \
+    c_vin_vo_vo=10 gm_vin_vo_vin=0.01 c_vin_2_2=8.516814 \
+    r_vin_vin_2=3.081392 rscl_2_vo_prs=80.0 g_2_vo=0.04168711 \
+    rscl_1_2_prs=40.56446 g_1_2=0.01 rscl_vin_1_prs=79.9984 \
+    g_vin_1=0.1465095

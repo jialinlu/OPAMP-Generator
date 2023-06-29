@@ -1,0 +1,1939 @@
+simulate...
+
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 12.1.0.347.isr3 32bit -- 10 Jan 2013
+Copyright (C) 1989-2012 Cadence Design Systems, Inc. All rights reserved
+        worldwide. Cadence, Virtuoso and Spectre are registered trademarks of
+        Cadence Design Systems, Inc. All others are the property of their
+        respective holders.
+
+
+Protected by U.S. Patents: 
+
+        5,610,847; 5,790,436; 5,812,431; 5,859,785; 5,949,992; 5,987,238; 
+        6,088,523; 6,101,323; 6,151,698; 6,181,754; 6,260,176; 6,278,964; 
+
+        6,349,272; 6,374,390; 6,493,849; 6,504,885; 6,618,837; 6,636,839; 
+        6,778,025; 6,832,358; 6,851,097; 6,928,626; 7,024,652; 7,035,782; 
+        7,085,700; 7,143,021; 7,493,240; 7,571,401.
+
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA
+        Security, Inc.
+
+
+User: shenjinyi   Host: localhost.localdomain   HostID: 7F0100   PID: 45576
+
+Memory  available: 139.5088 GB  physical: 809.9874 GB
+
+CPU Type: Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz
+          Processor PhysicalID CoreID Frequency
+              0         0        0     3558.6
+              1         0        1     3545.3
+
+              2         0        2     2855.4
+              3         0        3     3435.8
+              4         0        4     3599.9
+              5         0        5     3599.9
+              6         0        6     3541.8
+              7         0        7     1369.5
+              8         0        8     3498.8
+              9         0        9     2764.1
+             10         0        10     3565.0
+
+             11         0        11     3599.9
+             12         0        12     3068.2
+             13         0        13     3599.9
+             14         0        14     1558.9
+             15         0        15     1957.5
+             16         1        0     2079.2
+
+             17         1        1     3599.9
+             18         1        2     1311.2
+             19         1        3     1432.3
+             20         1        4     1644.3
+             21         1        5     3505.5
+
+             22         1        6     3484.6
+             23         1        7     1924.0
+             24         1        8     3599.9
+             25         1        9     1248.7
+             26         1        10     3542.9
+             27         1        11     1242.7
+
+             28         1        12     3599.9
+             29         1        13     3018.2
+             30         1        14     2904.8
+             31         1        15     3599.9
+             32         0        0     2996.5
+             33         0        1     3513.5
+             34         0        2     2855.4
+
+             35         0        3     3520.4
+             36         0        4     3599.9
+             37         0        5     3599.9
+             38         0        6     3205.9
+             39         0        7     1729.7
+             40         0        8     3243.2
+
+             41         0        9     2868.5
+             42         0        10     3169.8
+             43         0        11     3599.9
+             44         0        12     3265.0
+             45         0        13     3599.9
+             46         0        14     2035.2
+
+             47         0        15     1405.9
+             48         1        0     2207.7
+             49         1        1     3599.9
+             50         1        2     1227.3
+             51         1        3     1246.3
+             52         1        4     1650.7
+             53         1        5     3237.5
+
+             54         1        6     3219.3
+             55         1        7     2322.1
+             56         1        8     3538.3
+             57         1        9     1199.9
+             58         1        10     3540.2
+             59         1        11     1265.4
+             60         1        12     3599.9
+
+             61         1        13     2841.6
+             62         1        14     1815.9
+             63         1        15     3599.9
+
+
+
+Simulating `input.scs' on localhost.localdomain at 7:48:23 PM, Sun Nov 13, 2022
+
+        (process id: 45576).
+
+Current working directory:
+        /home/shenjinyi/experiment/map_transistor/schematic_mapping/date22_circuits/FTBO_spectre_run5_modified/circuit/netlist.
+
+
+Warning from spectre.
+
+    WARNING (CMI-2015): Unable to open log file
+        `../sim_results/psf/spectre.out'.
+        Success.
+
+Reading file: 
+        /home/shenjinyi/experiment/map_transistor/schematic_mapping/date22_circuits/FTBO_spectre_run5_modified/circuit/netlist/input.scs
+
+
+Time for NDB Parsing: CPU = 1.53992 s, elapsed = 1.51955 s.
+Time accumulated: CPU = 1.53992 s, elapsed = 1.51955 s.
+Peak resident memory used = 47 Mbytes.
+
+
+
+Reading link: 
+        /apps/EDAs/MMSIM_12.10/tools.lnx86/spectre/etc/ahdl/discipline.h
+
+Reading file: 
+        /apps/EDAs/MMSIM_12.10/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+
+Reading link:  /apps/EDAs/MMSIM_12.10/tools.lnx86/spectre/etc/ahdl/constants.h
+
+Reading file: 
+        /apps/EDAs/MMSIM_12.10/tools.lnx86/spectre/etc/ahdl/constants.vams
+
+
+Time for Elaboration: CPU = 16.057 ms, elapsed = 16.078 ms.
+
+Time accumulated: CPU = 1.55609 s, elapsed = 1.53573 s.
+Peak resident memory used = 47.8 Mbytes.
+
+
+
+Time for EDB Visiting: CPU = 454 us, elapsed = 455.141 us.
+
+Time accumulated: CPU = 1.55662 s, elapsed = 1.53627 s.
+Peak resident memory used = 48.1 Mbytes.
+
+
+
+Circuit inventory:
+
+              nodes 5
+          capacitor 5     
+           resistor 6     
+               vccs 4     
+
+            vsource 1     
+
+
+Notice from spectre during initial setup.
+    APS Enabled.
+
+    Multithreading Enabled: 8 threads on system with 64 available processors.
+        
+
+
+
+
+Time for parsing: CPU = 417.968 ms, elapsed = 487.091 ms.
+Time accumulated: CPU = 1.97468 s, elapsed = 2.02344 s.
+Peak resident memory used = 50.8 Mbytes.
+
+
+
+****************************************
+AC Analysis `ac': freq = (1 Hz -> 1 GHz)
+****************************************
+
+    ac: freq = 1.698 Hz    (2.56 %), step = 38.66 mHz    (111 m%)
+
+    ac: freq = 1.738 Hz    (2.67 %), step = 39.56 mHz    (111 m%)
+
+    ac: freq = 1.778 Hz    (2.78 %), step = 40.48 mHz    (111 m%)
+
+    ac: freq = 1.82 Hz     (2.89 %), step = 41.42 mHz    (111 m%)
+
+    ac: freq = 1.862 Hz       (3 %), step = 42.39 mHz    (111 m%)
+
+    ac: freq = 1.905 Hz    (3.11 %), step = 43.37 mHz    (111 m%)
+
+    ac: freq = 1.95 Hz     (3.22 %), step = 44.38 mHz    (111 m%)
+
+    ac: freq = 1.995 Hz    (3.33 %), step = 45.42 mHz    (111 m%)
+
+    ac: freq = 2.042 Hz    (3.44 %), step = 46.48 mHz    (111 m%)
+
+    ac: freq = 2.089 Hz    (3.56 %), step = 47.56 mHz    (111 m%)
+
+    ac: freq = 2.138 Hz    (3.67 %), step = 48.67 mHz    (111 m%)
+
+    ac: freq = 2.188 Hz    (3.78 %), step = 49.8 mHz     (111 m%)
+
+    ac: freq = 2.239 Hz    (3.89 %), step = 50.96 mHz    (111 m%)
+
+    ac: freq = 2.291 Hz       (4 %), step = 52.15 mHz    (111 m%)
+
+    ac: freq = 2.344 Hz    (4.11 %), step = 53.36 mHz    (111 m%)
+
+    ac: freq = 2.399 Hz    (4.22 %), step = 54.6 mHz     (111 m%)
+
+    ac: freq = 2.455 Hz    (4.33 %), step = 55.88 mHz    (111 m%)
+
+    ac: freq = 2.512 Hz    (4.44 %), step = 57.18 mHz    (111 m%)
+
+    ac: freq = 2.57 Hz     (4.56 %), step = 58.51 mHz    (111 m%)
+
+    ac: freq = 2.63 Hz     (4.67 %), step = 59.87 mHz    (111 m%)
+
+    ac: freq = 2.692 Hz    (4.78 %), step = 61.27 mHz    (111 m%)
+
+    ac: freq = 2.754 Hz    (4.89 %), step = 62.69 mHz    (111 m%)
+
+    ac: freq = 2.818 Hz       (5 %), step = 64.15 mHz    (111 m%)
+
+    ac: freq = 2.884 Hz    (5.11 %), step = 65.65 mHz    (111 m%)
+
+    ac: freq = 2.951 Hz    (5.22 %), step = 67.18 mHz    (111 m%)
+
+    ac: freq = 3.02 Hz     (5.33 %), step = 68.74 mHz    (111 m%)
+
+    ac: freq = 3.09 Hz     (5.44 %), step = 70.34 mHz    (111 m%)
+
+    ac: freq = 3.162 Hz    (5.56 %), step = 71.98 mHz    (111 m%)
+
+    ac: freq = 3.236 Hz    (5.67 %), step = 73.66 mHz    (111 m%)
+
+    ac: freq = 3.311 Hz    (5.78 %), step = 75.37 mHz    (111 m%)
+
+    ac: freq = 3.388 Hz    (5.89 %), step = 77.13 mHz    (111 m%)
+
+    ac: freq = 3.467 Hz       (6 %), step = 78.93 mHz    (111 m%)
+
+    ac: freq = 3.548 Hz    (6.11 %), step = 80.77 mHz    (111 m%)
+
+    ac: freq = 3.631 Hz    (6.22 %), step = 82.65 mHz    (111 m%)
+
+    ac: freq = 3.715 Hz    (6.33 %), step = 84.57 mHz    (111 m%)
+
+    ac: freq = 3.802 Hz    (6.44 %), step = 86.54 mHz    (111 m%)
+
+    ac: freq = 3.89 Hz     (6.56 %), step = 88.56 mHz    (111 m%)
+
+    ac: freq = 3.981 Hz    (6.67 %), step = 90.62 mHz    (111 m%)
+
+    ac: freq = 4.074 Hz    (6.78 %), step = 92.73 mHz    (111 m%)
+
+    ac: freq = 4.169 Hz    (6.89 %), step = 94.89 mHz    (111 m%)
+
+    ac: freq = 4.266 Hz       (7 %), step = 97.1 mHz     (111 m%)
+
+    ac: freq = 4.365 Hz    (7.11 %), step = 99.36 mHz    (111 m%)
+
+    ac: freq = 4.467 Hz    (7.22 %), step = 101.7 mHz    (111 m%)
+
+    ac: freq = 4.571 Hz    (7.33 %), step = 104 mHz      (111 m%)
+
+    ac: freq = 4.677 Hz    (7.44 %), step = 106.5 mHz    (111 m%)
+
+    ac: freq = 4.786 Hz    (7.56 %), step = 108.9 mHz    (111 m%)
+
+    ac: freq = 4.898 Hz    (7.67 %), step = 111.5 mHz    (111 m%)
+
+    ac: freq = 5.012 Hz    (7.78 %), step = 114.1 mHz    (111 m%)
+
+    ac: freq = 5.129 Hz    (7.89 %), step = 116.7 mHz    (111 m%)
+
+    ac: freq = 5.248 Hz       (8 %), step = 119.5 mHz    (111 m%)
+
+    ac: freq = 5.37 Hz     (8.11 %), step = 122.2 mHz    (111 m%)
+
+    ac: freq = 5.495 Hz    (8.22 %), step = 125.1 mHz    (111 m%)
+
+    ac: freq = 5.623 Hz    (8.33 %), step = 128 mHz      (111 m%)
+
+    ac: freq = 5.754 Hz    (8.44 %), step = 131 mHz      (111 m%)
+
+    ac: freq = 5.888 Hz    (8.56 %), step = 134 mHz      (111 m%)
+
+    ac: freq = 6.026 Hz    (8.67 %), step = 137.2 mHz    (111 m%)
+
+    ac: freq = 6.166 Hz    (8.78 %), step = 140.4 mHz    (111 m%)
+
+    ac: freq = 6.31 Hz     (8.89 %), step = 143.6 mHz    (111 m%)
+
+    ac: freq = 6.457 Hz       (9 %), step = 147 mHz      (111 m%)
+
+    ac: freq = 6.607 Hz    (9.11 %), step = 150.4 mHz    (111 m%)
+
+    ac: freq = 6.761 Hz    (9.22 %), step = 153.9 mHz    (111 m%)
+
+    ac: freq = 6.918 Hz    (9.33 %), step = 157.5 mHz    (111 m%)
+
+    ac: freq = 7.079 Hz    (9.44 %), step = 161.1 mHz    (111 m%)
+
+    ac: freq = 7.244 Hz    (9.56 %), step = 164.9 mHz    (111 m%)
+
+    ac: freq = 7.413 Hz    (9.67 %), step = 168.7 mHz    (111 m%)
+
+    ac: freq = 7.586 Hz    (9.78 %), step = 172.7 mHz    (111 m%)
+
+    ac: freq = 7.762 Hz    (9.89 %), step = 176.7 mHz    (111 m%)
+
+    ac: freq = 7.943 Hz      (10 %), step = 180.8 mHz    (111 m%)
+
+    ac: freq = 8.128 Hz    (10.1 %), step = 185 mHz      (111 m%)
+
+    ac: freq = 8.318 Hz    (10.2 %), step = 189.3 mHz    (111 m%)
+
+    ac: freq = 8.511 Hz    (10.3 %), step = 193.7 mHz    (111 m%)
+
+    ac: freq = 8.71 Hz     (10.4 %), step = 198.3 mHz    (111 m%)
+
+    ac: freq = 8.913 Hz    (10.6 %), step = 202.9 mHz    (111 m%)
+
+    ac: freq = 9.12 Hz     (10.7 %), step = 207.6 mHz    (111 m%)
+
+    ac: freq = 9.333 Hz    (10.8 %), step = 212.4 mHz    (111 m%)
+
+    ac: freq = 9.55 Hz     (10.9 %), step = 217.4 mHz    (111 m%)
+
+    ac: freq = 9.772 Hz      (11 %), step = 222.4 mHz    (111 m%)
+
+    ac: freq = 10 Hz       (11.1 %), step = 227.6 mHz    (111 m%)
+
+    ac: freq = 10.23 Hz    (11.2 %), step = 232.9 mHz    (111 m%)
+
+    ac: freq = 10.47 Hz    (11.3 %), step = 238.4 mHz    (111 m%)
+
+    ac: freq = 10.72 Hz    (11.4 %), step = 243.9 mHz    (111 m%)
+
+    ac: freq = 10.96 Hz    (11.6 %), step = 249.6 mHz    (111 m%)
+
+    ac: freq = 11.22 Hz    (11.7 %), step = 255.4 mHz    (111 m%)
+
+    ac: freq = 11.48 Hz    (11.8 %), step = 261.4 mHz    (111 m%)
+
+    ac: freq = 11.75 Hz    (11.9 %), step = 267.4 mHz    (111 m%)
+
+    ac: freq = 12.02 Hz      (12 %), step = 273.7 mHz    (111 m%)
+
+    ac: freq = 12.3 Hz     (12.1 %), step = 280 mHz      (111 m%)
+
+    ac: freq = 12.59 Hz    (12.2 %), step = 286.6 mHz    (111 m%)
+
+    ac: freq = 12.88 Hz    (12.3 %), step = 293.2 mHz    (111 m%)
+
+    ac: freq = 13.18 Hz    (12.4 %), step = 300.1 mHz    (111 m%)
+
+    ac: freq = 13.49 Hz    (12.6 %), step = 307.1 mHz    (111 m%)
+
+    ac: freq = 13.8 Hz     (12.7 %), step = 314.2 mHz    (111 m%)
+
+    ac: freq = 14.13 Hz    (12.8 %), step = 321.5 mHz    (111 m%)
+
+    ac: freq = 14.45 Hz    (12.9 %), step = 329 mHz      (111 m%)
+
+    ac: freq = 14.79 Hz      (13 %), step = 336.7 mHz    (111 m%)
+
+    ac: freq = 15.14 Hz    (13.1 %), step = 344.5 mHz    (111 m%)
+
+    ac: freq = 15.49 Hz    (13.2 %), step = 352.6 mHz    (111 m%)
+
+    ac: freq = 15.85 Hz    (13.3 %), step = 360.8 mHz    (111 m%)
+
+    ac: freq = 16.22 Hz    (13.4 %), step = 369.2 mHz    (111 m%)
+
+    ac: freq = 16.6 Hz     (13.6 %), step = 377.8 mHz    (111 m%)
+
+    ac: freq = 16.98 Hz    (13.7 %), step = 386.6 mHz    (111 m%)
+
+    ac: freq = 17.38 Hz    (13.8 %), step = 395.6 mHz    (111 m%)
+
+    ac: freq = 17.78 Hz    (13.9 %), step = 404.8 mHz    (111 m%)
+
+    ac: freq = 18.2 Hz       (14 %), step = 414.2 mHz    (111 m%)
+
+    ac: freq = 18.62 Hz    (14.1 %), step = 423.9 mHz    (111 m%)
+
+    ac: freq = 19.05 Hz    (14.2 %), step = 433.7 mHz    (111 m%)
+
+    ac: freq = 19.5 Hz     (14.3 %), step = 443.8 mHz    (111 m%)
+
+    ac: freq = 19.95 Hz    (14.4 %), step = 454.2 mHz    (111 m%)
+
+    ac: freq = 20.42 Hz    (14.6 %), step = 464.8 mHz    (111 m%)
+
+    ac: freq = 20.89 Hz    (14.7 %), step = 475.6 mHz    (111 m%)
+
+    ac: freq = 21.38 Hz    (14.8 %), step = 486.7 mHz    (111 m%)
+
+    ac: freq = 21.88 Hz    (14.9 %), step = 498 mHz      (111 m%)
+
+    ac: freq = 22.39 Hz      (15 %), step = 509.6 mHz    (111 m%)
+
+    ac: freq = 22.91 Hz    (15.1 %), step = 521.5 mHz    (111 m%)
+
+    ac: freq = 23.44 Hz    (15.2 %), step = 533.6 mHz    (111 m%)
+
+    ac: freq = 23.99 Hz    (15.3 %), step = 546 mHz      (111 m%)
+
+    ac: freq = 24.55 Hz    (15.4 %), step = 558.8 mHz    (111 m%)
+
+    ac: freq = 25.12 Hz    (15.6 %), step = 571.8 mHz    (111 m%)
+
+    ac: freq = 25.7 Hz     (15.7 %), step = 585.1 mHz    (111 m%)
+
+    ac: freq = 26.3 Hz     (15.8 %), step = 598.7 mHz    (111 m%)
+
+    ac: freq = 26.92 Hz    (15.9 %), step = 612.7 mHz    (111 m%)
+
+    ac: freq = 27.54 Hz      (16 %), step = 626.9 mHz    (111 m%)
+
+    ac: freq = 28.18 Hz    (16.1 %), step = 641.5 mHz    (111 m%)
+
+    ac: freq = 28.84 Hz    (16.2 %), step = 656.5 mHz    (111 m%)
+
+    ac: freq = 29.51 Hz    (16.3 %), step = 671.8 mHz    (111 m%)
+
+    ac: freq = 30.2 Hz     (16.4 %), step = 687.4 mHz    (111 m%)
+
+    ac: freq = 30.9 Hz     (16.6 %), step = 703.4 mHz    (111 m%)
+
+    ac: freq = 31.62 Hz    (16.7 %), step = 719.8 mHz    (111 m%)
+
+    ac: freq = 32.36 Hz    (16.8 %), step = 736.6 mHz    (111 m%)
+
+    ac: freq = 33.11 Hz    (16.9 %), step = 753.7 mHz    (111 m%)
+
+    ac: freq = 33.88 Hz      (17 %), step = 771.3 mHz    (111 m%)
+
+    ac: freq = 34.67 Hz    (17.1 %), step = 789.3 mHz    (111 m%)
+
+    ac: freq = 35.48 Hz    (17.2 %), step = 807.7 mHz    (111 m%)
+
+    ac: freq = 36.31 Hz    (17.3 %), step = 826.5 mHz    (111 m%)
+
+    ac: freq = 37.15 Hz    (17.4 %), step = 845.7 mHz    (111 m%)
+
+    ac: freq = 38.02 Hz    (17.6 %), step = 865.4 mHz    (111 m%)
+
+    ac: freq = 38.9 Hz     (17.7 %), step = 885.6 mHz    (111 m%)
+
+    ac: freq = 39.81 Hz    (17.8 %), step = 906.2 mHz    (111 m%)
+
+    ac: freq = 40.74 Hz    (17.9 %), step = 927.3 mHz    (111 m%)
+
+    ac: freq = 41.69 Hz      (18 %), step = 948.9 mHz    (111 m%)
+
+    ac: freq = 42.66 Hz    (18.1 %), step = 971 mHz      (111 m%)
+
+    ac: freq = 43.65 Hz    (18.2 %), step = 993.6 mHz    (111 m%)
+
+    ac: freq = 44.67 Hz    (18.3 %), step = 1.017 Hz     (111 m%)
+
+    ac: freq = 45.71 Hz    (18.4 %), step = 1.04 Hz      (111 m%)
+
+    ac: freq = 46.77 Hz    (18.6 %), step = 1.065 Hz     (111 m%)
+
+    ac: freq = 47.86 Hz    (18.7 %), step = 1.089 Hz     (111 m%)
+
+    ac: freq = 48.98 Hz    (18.8 %), step = 1.115 Hz     (111 m%)
+
+    ac: freq = 50.12 Hz    (18.9 %), step = 1.141 Hz     (111 m%)
+
+    ac: freq = 51.29 Hz      (19 %), step = 1.167 Hz     (111 m%)
+
+    ac: freq = 52.48 Hz    (19.1 %), step = 1.195 Hz     (111 m%)
+
+    ac: freq = 53.7 Hz     (19.2 %), step = 1.222 Hz     (111 m%)
+
+    ac: freq = 54.95 Hz    (19.3 %), step = 1.251 Hz     (111 m%)
+
+    ac: freq = 56.23 Hz    (19.4 %), step = 1.28 Hz      (111 m%)
+
+    ac: freq = 57.54 Hz    (19.6 %), step = 1.31 Hz      (111 m%)
+
+    ac: freq = 58.88 Hz    (19.7 %), step = 1.34 Hz      (111 m%)
+
+    ac: freq = 60.26 Hz    (19.8 %), step = 1.372 Hz     (111 m%)
+
+    ac: freq = 61.66 Hz    (19.9 %), step = 1.404 Hz     (111 m%)
+
+    ac: freq = 63.1 Hz       (20 %), step = 1.436 Hz     (111 m%)
+
+    ac: freq = 64.57 Hz    (20.1 %), step = 1.47 Hz      (111 m%)
+
+    ac: freq = 66.07 Hz    (20.2 %), step = 1.504 Hz     (111 m%)
+
+    ac: freq = 67.61 Hz    (20.3 %), step = 1.539 Hz     (111 m%)
+
+    ac: freq = 69.18 Hz    (20.4 %), step = 1.575 Hz     (111 m%)
+
+    ac: freq = 70.79 Hz    (20.6 %), step = 1.611 Hz     (111 m%)
+
+    ac: freq = 72.44 Hz    (20.7 %), step = 1.649 Hz     (111 m%)
+
+    ac: freq = 74.13 Hz    (20.8 %), step = 1.687 Hz     (111 m%)
+
+    ac: freq = 75.86 Hz    (20.9 %), step = 1.727 Hz     (111 m%)
+
+    ac: freq = 77.62 Hz      (21 %), step = 1.767 Hz     (111 m%)
+
+    ac: freq = 79.43 Hz    (21.1 %), step = 1.808 Hz     (111 m%)
+
+    ac: freq = 81.28 Hz    (21.2 %), step = 1.85 Hz      (111 m%)
+
+    ac: freq = 83.18 Hz    (21.3 %), step = 1.893 Hz     (111 m%)
+
+    ac: freq = 85.11 Hz    (21.4 %), step = 1.937 Hz     (111 m%)
+
+    ac: freq = 87.1 Hz     (21.6 %), step = 1.983 Hz     (111 m%)
+
+    ac: freq = 89.13 Hz    (21.7 %), step = 2.029 Hz     (111 m%)
+
+    ac: freq = 91.2 Hz     (21.8 %), step = 2.076 Hz     (111 m%)
+
+    ac: freq = 93.33 Hz    (21.9 %), step = 2.124 Hz     (111 m%)
+
+    ac: freq = 95.5 Hz       (22 %), step = 2.174 Hz     (111 m%)
+
+    ac: freq = 97.72 Hz    (22.1 %), step = 2.224 Hz     (111 m%)
+
+    ac: freq = 100 Hz      (22.2 %), step = 2.276 Hz     (111 m%)
+
+    ac: freq = 102.3 Hz    (22.3 %), step = 2.329 Hz     (111 m%)
+
+    ac: freq = 104.7 Hz    (22.4 %), step = 2.384 Hz     (111 m%)
+
+    ac: freq = 107.2 Hz    (22.6 %), step = 2.439 Hz     (111 m%)
+
+    ac: freq = 109.6 Hz    (22.7 %), step = 2.496 Hz     (111 m%)
+
+    ac: freq = 112.2 Hz    (22.8 %), step = 2.554 Hz     (111 m%)
+
+    ac: freq = 114.8 Hz    (22.9 %), step = 2.614 Hz     (111 m%)
+
+    ac: freq = 117.5 Hz      (23 %), step = 2.674 Hz     (111 m%)
+
+    ac: freq = 120.2 Hz    (23.1 %), step = 2.737 Hz     (111 m%)
+
+    ac: freq = 123 Hz      (23.2 %), step = 2.8 Hz       (111 m%)
+
+    ac: freq = 125.9 Hz    (23.3 %), step = 2.866 Hz     (111 m%)
+
+    ac: freq = 128.8 Hz    (23.4 %), step = 2.932 Hz     (111 m%)
+
+    ac: freq = 131.8 Hz    (23.6 %), step = 3.001 Hz     (111 m%)
+
+    ac: freq = 134.9 Hz    (23.7 %), step = 3.071 Hz     (111 m%)
+
+    ac: freq = 138 Hz      (23.8 %), step = 3.142 Hz     (111 m%)
+
+    ac: freq = 141.3 Hz    (23.9 %), step = 3.215 Hz     (111 m%)
+
+    ac: freq = 144.5 Hz      (24 %), step = 3.29 Hz      (111 m%)
+
+    ac: freq = 147.9 Hz    (24.1 %), step = 3.367 Hz     (111 m%)
+
+    ac: freq = 151.4 Hz    (24.2 %), step = 3.445 Hz     (111 m%)
+
+    ac: freq = 154.9 Hz    (24.3 %), step = 3.526 Hz     (111 m%)
+
+    ac: freq = 158.5 Hz    (24.4 %), step = 3.608 Hz     (111 m%)
+
+    ac: freq = 162.2 Hz    (24.6 %), step = 3.692 Hz     (111 m%)
+
+    ac: freq = 166 Hz      (24.7 %), step = 3.778 Hz     (111 m%)
+
+    ac: freq = 169.8 Hz    (24.8 %), step = 3.866 Hz     (111 m%)
+
+    ac: freq = 173.8 Hz    (24.9 %), step = 3.956 Hz     (111 m%)
+
+    ac: freq = 177.8 Hz      (25 %), step = 4.048 Hz     (111 m%)
+
+    ac: freq = 182 Hz      (25.1 %), step = 4.142 Hz     (111 m%)
+
+    ac: freq = 186.2 Hz    (25.2 %), step = 4.239 Hz     (111 m%)
+
+    ac: freq = 190.5 Hz    (25.3 %), step = 4.337 Hz     (111 m%)
+
+    ac: freq = 195 Hz      (25.4 %), step = 4.438 Hz     (111 m%)
+
+    ac: freq = 199.5 Hz    (25.6 %), step = 4.542 Hz     (111 m%)
+
+    ac: freq = 204.2 Hz    (25.7 %), step = 4.648 Hz     (111 m%)
+
+    ac: freq = 208.9 Hz    (25.8 %), step = 4.756 Hz     (111 m%)
+
+    ac: freq = 213.8 Hz    (25.9 %), step = 4.867 Hz     (111 m%)
+
+    ac: freq = 218.8 Hz      (26 %), step = 4.98 Hz      (111 m%)
+
+    ac: freq = 223.9 Hz    (26.1 %), step = 5.096 Hz     (111 m%)
+
+    ac: freq = 229.1 Hz    (26.2 %), step = 5.215 Hz     (111 m%)
+
+    ac: freq = 234.4 Hz    (26.3 %), step = 5.336 Hz     (111 m%)
+
+    ac: freq = 239.9 Hz    (26.4 %), step = 5.46 Hz      (111 m%)
+
+    ac: freq = 245.5 Hz    (26.6 %), step = 5.588 Hz     (111 m%)
+
+    ac: freq = 251.2 Hz    (26.7 %), step = 5.718 Hz     (111 m%)
+
+    ac: freq = 257 Hz      (26.8 %), step = 5.851 Hz     (111 m%)
+
+    ac: freq = 263 Hz      (26.9 %), step = 5.987 Hz     (111 m%)
+
+    ac: freq = 269.2 Hz      (27 %), step = 6.127 Hz     (111 m%)
+
+    ac: freq = 275.4 Hz    (27.1 %), step = 6.269 Hz     (111 m%)
+
+    ac: freq = 281.8 Hz    (27.2 %), step = 6.415 Hz     (111 m%)
+
+    ac: freq = 288.4 Hz    (27.3 %), step = 6.565 Hz     (111 m%)
+
+    ac: freq = 295.1 Hz    (27.4 %), step = 6.718 Hz     (111 m%)
+
+    ac: freq = 302 Hz      (27.6 %), step = 6.874 Hz     (111 m%)
+
+    ac: freq = 309 Hz      (27.7 %), step = 7.034 Hz     (111 m%)
+
+    ac: freq = 316.2 Hz    (27.8 %), step = 7.198 Hz     (111 m%)
+
+    ac: freq = 323.6 Hz    (27.9 %), step = 7.366 Hz     (111 m%)
+
+    ac: freq = 331.1 Hz      (28 %), step = 7.537 Hz     (111 m%)
+
+    ac: freq = 338.8 Hz    (28.1 %), step = 7.713 Hz     (111 m%)
+
+    ac: freq = 346.7 Hz    (28.2 %), step = 7.893 Hz     (111 m%)
+
+    ac: freq = 354.8 Hz    (28.3 %), step = 8.077 Hz     (111 m%)
+
+    ac: freq = 363.1 Hz    (28.4 %), step = 8.265 Hz     (111 m%)
+
+    ac: freq = 371.5 Hz    (28.6 %), step = 8.457 Hz     (111 m%)
+
+    ac: freq = 380.2 Hz    (28.7 %), step = 8.654 Hz     (111 m%)
+
+    ac: freq = 389 Hz      (28.8 %), step = 8.856 Hz     (111 m%)
+
+    ac: freq = 398.1 Hz    (28.9 %), step = 9.062 Hz     (111 m%)
+
+    ac: freq = 407.4 Hz      (29 %), step = 9.273 Hz     (111 m%)
+
+    ac: freq = 416.9 Hz    (29.1 %), step = 9.489 Hz     (111 m%)
+
+    ac: freq = 426.6 Hz    (29.2 %), step = 9.71 Hz      (111 m%)
+
+    ac: freq = 436.5 Hz    (29.3 %), step = 9.936 Hz     (111 m%)
+
+    ac: freq = 446.7 Hz    (29.4 %), step = 10.17 Hz     (111 m%)
+
+    ac: freq = 457.1 Hz    (29.6 %), step = 10.4 Hz      (111 m%)
+
+    ac: freq = 467.7 Hz    (29.7 %), step = 10.65 Hz     (111 m%)
+
+    ac: freq = 478.6 Hz    (29.8 %), step = 10.89 Hz     (111 m%)
+
+    ac: freq = 489.8 Hz    (29.9 %), step = 11.15 Hz     (111 m%)
+
+    ac: freq = 501.2 Hz      (30 %), step = 11.41 Hz     (111 m%)
+
+    ac: freq = 512.9 Hz    (30.1 %), step = 11.67 Hz     (111 m%)
+
+    ac: freq = 524.8 Hz    (30.2 %), step = 11.95 Hz     (111 m%)
+
+    ac: freq = 537 Hz      (30.3 %), step = 12.22 Hz     (111 m%)
+
+    ac: freq = 549.5 Hz    (30.4 %), step = 12.51 Hz     (111 m%)
+
+    ac: freq = 562.3 Hz    (30.6 %), step = 12.8 Hz      (111 m%)
+
+    ac: freq = 575.4 Hz    (30.7 %), step = 13.1 Hz      (111 m%)
+
+    ac: freq = 588.8 Hz    (30.8 %), step = 13.4 Hz      (111 m%)
+
+    ac: freq = 602.6 Hz    (30.9 %), step = 13.72 Hz     (111 m%)
+
+    ac: freq = 616.6 Hz      (31 %), step = 14.04 Hz     (111 m%)
+
+    ac: freq = 631 Hz      (31.1 %), step = 14.36 Hz     (111 m%)
+
+    ac: freq = 645.7 Hz    (31.2 %), step = 14.7 Hz      (111 m%)
+
+    ac: freq = 660.7 Hz    (31.3 %), step = 15.04 Hz     (111 m%)
+
+    ac: freq = 676.1 Hz    (31.4 %), step = 15.39 Hz     (111 m%)
+
+    ac: freq = 691.8 Hz    (31.6 %), step = 15.75 Hz     (111 m%)
+
+    ac: freq = 707.9 Hz    (31.7 %), step = 16.11 Hz     (111 m%)
+
+    ac: freq = 724.4 Hz    (31.8 %), step = 16.49 Hz     (111 m%)
+
+    ac: freq = 741.3 Hz    (31.9 %), step = 16.87 Hz     (111 m%)
+
+    ac: freq = 758.6 Hz      (32 %), step = 17.27 Hz     (111 m%)
+
+    ac: freq = 776.2 Hz    (32.1 %), step = 17.67 Hz     (111 m%)
+
+    ac: freq = 794.3 Hz    (32.2 %), step = 18.08 Hz     (111 m%)
+
+    ac: freq = 812.8 Hz    (32.3 %), step = 18.5 Hz      (111 m%)
+
+    ac: freq = 831.8 Hz    (32.4 %), step = 18.93 Hz     (111 m%)
+
+    ac: freq = 851.1 Hz    (32.6 %), step = 19.37 Hz     (111 m%)
+
+    ac: freq = 871 Hz      (32.7 %), step = 19.83 Hz     (111 m%)
+
+    ac: freq = 891.3 Hz    (32.8 %), step = 20.29 Hz     (111 m%)
+
+    ac: freq = 912 Hz      (32.9 %), step = 20.76 Hz     (111 m%)
+
+    ac: freq = 933.3 Hz      (33 %), step = 21.24 Hz     (111 m%)
+
+    ac: freq = 955 Hz      (33.1 %), step = 21.74 Hz     (111 m%)
+
+    ac: freq = 977.2 Hz    (33.2 %), step = 22.24 Hz     (111 m%)
+
+    ac: freq = 1 kHz       (33.3 %), step = 22.76 Hz     (111 m%)
+
+    ac: freq = 1.023 kHz   (33.4 %), step = 23.29 Hz     (111 m%)
+
+    ac: freq = 1.047 kHz   (33.6 %), step = 23.84 Hz     (111 m%)
+
+    ac: freq = 1.072 kHz   (33.7 %), step = 24.39 Hz     (111 m%)
+
+    ac: freq = 1.096 kHz   (33.8 %), step = 24.96 Hz     (111 m%)
+
+    ac: freq = 1.122 kHz   (33.9 %), step = 25.54 Hz     (111 m%)
+
+    ac: freq = 1.148 kHz     (34 %), step = 26.14 Hz     (111 m%)
+
+    ac: freq = 1.175 kHz   (34.1 %), step = 26.74 Hz     (111 m%)
+
+    ac: freq = 1.202 kHz   (34.2 %), step = 27.37 Hz     (111 m%)
+
+    ac: freq = 1.23 kHz    (34.3 %), step = 28 Hz        (111 m%)
+
+    ac: freq = 1.259 kHz   (34.4 %), step = 28.66 Hz     (111 m%)
+
+    ac: freq = 1.288 kHz   (34.6 %), step = 29.32 Hz     (111 m%)
+
+    ac: freq = 1.318 kHz   (34.7 %), step = 30.01 Hz     (111 m%)
+
+    ac: freq = 1.349 kHz   (34.8 %), step = 30.71 Hz     (111 m%)
+
+    ac: freq = 1.38 kHz    (34.9 %), step = 31.42 Hz     (111 m%)
+
+    ac: freq = 1.413 kHz     (35 %), step = 32.15 Hz     (111 m%)
+
+    ac: freq = 1.445 kHz   (35.1 %), step = 32.9 Hz      (111 m%)
+
+    ac: freq = 1.479 kHz   (35.2 %), step = 33.67 Hz     (111 m%)
+
+    ac: freq = 1.514 kHz   (35.3 %), step = 34.45 Hz     (111 m%)
+
+    ac: freq = 1.549 kHz   (35.4 %), step = 35.26 Hz     (111 m%)
+
+    ac: freq = 1.585 kHz   (35.6 %), step = 36.08 Hz     (111 m%)
+
+    ac: freq = 1.622 kHz   (35.7 %), step = 36.92 Hz     (111 m%)
+
+    ac: freq = 1.66 kHz    (35.8 %), step = 37.78 Hz     (111 m%)
+
+    ac: freq = 1.698 kHz   (35.9 %), step = 38.66 Hz     (111 m%)
+
+    ac: freq = 1.738 kHz     (36 %), step = 39.56 Hz     (111 m%)
+
+    ac: freq = 1.778 kHz   (36.1 %), step = 40.48 Hz     (111 m%)
+
+    ac: freq = 1.82 kHz    (36.2 %), step = 41.42 Hz     (111 m%)
+
+    ac: freq = 1.862 kHz   (36.3 %), step = 42.39 Hz     (111 m%)
+
+    ac: freq = 1.905 kHz   (36.4 %), step = 43.37 Hz     (111 m%)
+
+    ac: freq = 1.95 kHz    (36.6 %), step = 44.38 Hz     (111 m%)
+
+    ac: freq = 1.995 kHz   (36.7 %), step = 45.42 Hz     (111 m%)
+
+    ac: freq = 2.042 kHz   (36.8 %), step = 46.48 Hz     (111 m%)
+
+    ac: freq = 2.089 kHz   (36.9 %), step = 47.56 Hz     (111 m%)
+
+    ac: freq = 2.138 kHz     (37 %), step = 48.67 Hz     (111 m%)
+
+    ac: freq = 2.188 kHz   (37.1 %), step = 49.8 Hz      (111 m%)
+
+    ac: freq = 2.239 kHz   (37.2 %), step = 50.96 Hz     (111 m%)
+
+    ac: freq = 2.291 kHz   (37.3 %), step = 52.15 Hz     (111 m%)
+
+    ac: freq = 2.344 kHz   (37.4 %), step = 53.36 Hz     (111 m%)
+
+    ac: freq = 2.399 kHz   (37.6 %), step = 54.6 Hz      (111 m%)
+
+    ac: freq = 2.455 kHz   (37.7 %), step = 55.88 Hz     (111 m%)
+
+    ac: freq = 2.512 kHz   (37.8 %), step = 57.18 Hz     (111 m%)
+
+    ac: freq = 2.57 kHz    (37.9 %), step = 58.51 Hz     (111 m%)
+
+    ac: freq = 2.63 kHz      (38 %), step = 59.87 Hz     (111 m%)
+
+    ac: freq = 2.692 kHz   (38.1 %), step = 61.27 Hz     (111 m%)
+
+    ac: freq = 2.754 kHz   (38.2 %), step = 62.69 Hz     (111 m%)
+
+    ac: freq = 2.818 kHz   (38.3 %), step = 64.15 Hz     (111 m%)
+
+    ac: freq = 2.884 kHz   (38.4 %), step = 65.65 Hz     (111 m%)
+
+    ac: freq = 2.951 kHz   (38.6 %), step = 67.18 Hz     (111 m%)
+
+    ac: freq = 3.02 kHz    (38.7 %), step = 68.74 Hz     (111 m%)
+
+    ac: freq = 3.09 kHz    (38.8 %), step = 70.34 Hz     (111 m%)
+
+    ac: freq = 3.162 kHz   (38.9 %), step = 71.98 Hz     (111 m%)
+
+    ac: freq = 3.236 kHz     (39 %), step = 73.66 Hz     (111 m%)
+
+    ac: freq = 3.311 kHz   (39.1 %), step = 75.37 Hz     (111 m%)
+
+    ac: freq = 3.388 kHz   (39.2 %), step = 77.13 Hz     (111 m%)
+
+    ac: freq = 3.467 kHz   (39.3 %), step = 78.93 Hz     (111 m%)
+
+    ac: freq = 3.548 kHz   (39.4 %), step = 80.77 Hz     (111 m%)
+
+    ac: freq = 3.631 kHz   (39.6 %), step = 82.65 Hz     (111 m%)
+
+    ac: freq = 3.715 kHz   (39.7 %), step = 84.57 Hz     (111 m%)
+
+    ac: freq = 3.802 kHz   (39.8 %), step = 86.54 Hz     (111 m%)
+
+    ac: freq = 3.89 kHz    (39.9 %), step = 88.56 Hz     (111 m%)
+
+    ac: freq = 3.981 kHz     (40 %), step = 90.62 Hz     (111 m%)
+
+    ac: freq = 4.074 kHz   (40.1 %), step = 92.73 Hz     (111 m%)
+
+    ac: freq = 4.169 kHz   (40.2 %), step = 94.89 Hz     (111 m%)
+
+    ac: freq = 4.266 kHz   (40.3 %), step = 97.1 Hz      (111 m%)
+
+    ac: freq = 4.365 kHz   (40.4 %), step = 99.36 Hz     (111 m%)
+
+    ac: freq = 4.467 kHz   (40.6 %), step = 101.7 Hz     (111 m%)
+
+    ac: freq = 4.571 kHz   (40.7 %), step = 104 Hz       (111 m%)
+
+    ac: freq = 4.677 kHz   (40.8 %), step = 106.5 Hz     (111 m%)
+
+    ac: freq = 4.786 kHz   (40.9 %), step = 108.9 Hz     (111 m%)
+
+    ac: freq = 4.898 kHz     (41 %), step = 111.5 Hz     (111 m%)
+
+    ac: freq = 5.012 kHz   (41.1 %), step = 114.1 Hz     (111 m%)
+
+    ac: freq = 5.129 kHz   (41.2 %), step = 116.7 Hz     (111 m%)
+
+    ac: freq = 5.248 kHz   (41.3 %), step = 119.5 Hz     (111 m%)
+
+    ac: freq = 5.37 kHz    (41.4 %), step = 122.2 Hz     (111 m%)
+
+    ac: freq = 5.495 kHz   (41.6 %), step = 125.1 Hz     (111 m%)
+
+    ac: freq = 5.623 kHz   (41.7 %), step = 128 Hz       (111 m%)
+
+    ac: freq = 5.754 kHz   (41.8 %), step = 131 Hz       (111 m%)
+
+    ac: freq = 5.888 kHz   (41.9 %), step = 134 Hz       (111 m%)
+
+    ac: freq = 6.026 kHz     (42 %), step = 137.2 Hz     (111 m%)
+
+    ac: freq = 6.166 kHz   (42.1 %), step = 140.4 Hz     (111 m%)
+
+    ac: freq = 6.31 kHz    (42.2 %), step = 143.6 Hz     (111 m%)
+
+    ac: freq = 6.457 kHz   (42.3 %), step = 147 Hz       (111 m%)
+
+    ac: freq = 6.607 kHz   (42.4 %), step = 150.4 Hz     (111 m%)
+
+    ac: freq = 6.761 kHz   (42.6 %), step = 153.9 Hz     (111 m%)
+
+    ac: freq = 6.918 kHz   (42.7 %), step = 157.5 Hz     (111 m%)
+
+    ac: freq = 7.079 kHz   (42.8 %), step = 161.1 Hz     (111 m%)
+
+    ac: freq = 7.244 kHz   (42.9 %), step = 164.9 Hz     (111 m%)
+
+    ac: freq = 7.413 kHz     (43 %), step = 168.7 Hz     (111 m%)
+
+    ac: freq = 7.586 kHz   (43.1 %), step = 172.7 Hz     (111 m%)
+
+    ac: freq = 7.762 kHz   (43.2 %), step = 176.7 Hz     (111 m%)
+
+    ac: freq = 7.943 kHz   (43.3 %), step = 180.8 Hz     (111 m%)
+
+    ac: freq = 8.128 kHz   (43.4 %), step = 185 Hz       (111 m%)
+
+    ac: freq = 8.318 kHz   (43.6 %), step = 189.3 Hz     (111 m%)
+
+    ac: freq = 8.511 kHz   (43.7 %), step = 193.7 Hz     (111 m%)
+
+    ac: freq = 8.71 kHz    (43.8 %), step = 198.3 Hz     (111 m%)
+
+    ac: freq = 8.913 kHz   (43.9 %), step = 202.9 Hz     (111 m%)
+
+    ac: freq = 9.12 kHz      (44 %), step = 207.6 Hz     (111 m%)
+
+    ac: freq = 9.333 kHz   (44.1 %), step = 212.4 Hz     (111 m%)
+
+    ac: freq = 9.55 kHz    (44.2 %), step = 217.4 Hz     (111 m%)
+
+    ac: freq = 9.772 kHz   (44.3 %), step = 222.4 Hz     (111 m%)
+
+    ac: freq = 10 kHz      (44.4 %), step = 227.6 Hz     (111 m%)
+
+    ac: freq = 10.23 kHz   (44.6 %), step = 232.9 Hz     (111 m%)
+
+    ac: freq = 10.47 kHz   (44.7 %), step = 238.4 Hz     (111 m%)
+
+    ac: freq = 10.72 kHz   (44.8 %), step = 243.9 Hz     (111 m%)
+
+    ac: freq = 10.96 kHz   (44.9 %), step = 249.6 Hz     (111 m%)
+
+    ac: freq = 11.22 kHz     (45 %), step = 255.4 Hz     (111 m%)
+
+    ac: freq = 11.48 kHz   (45.1 %), step = 261.4 Hz     (111 m%)
+
+    ac: freq = 11.75 kHz   (45.2 %), step = 267.4 Hz     (111 m%)
+
+    ac: freq = 12.02 kHz   (45.3 %), step = 273.7 Hz     (111 m%)
+
+    ac: freq = 12.3 kHz    (45.4 %), step = 280 Hz       (111 m%)
+
+    ac: freq = 12.59 kHz   (45.6 %), step = 286.6 Hz     (111 m%)
+
+    ac: freq = 12.88 kHz   (45.7 %), step = 293.2 Hz     (111 m%)
+
+    ac: freq = 13.18 kHz   (45.8 %), step = 300.1 Hz     (111 m%)
+
+    ac: freq = 13.49 kHz   (45.9 %), step = 307.1 Hz     (111 m%)
+
+    ac: freq = 13.8 kHz      (46 %), step = 314.2 Hz     (111 m%)
+
+    ac: freq = 14.13 kHz   (46.1 %), step = 321.5 Hz     (111 m%)
+
+    ac: freq = 14.45 kHz   (46.2 %), step = 329 Hz       (111 m%)
+
+    ac: freq = 14.79 kHz   (46.3 %), step = 336.7 Hz     (111 m%)
+
+    ac: freq = 15.14 kHz   (46.4 %), step = 344.5 Hz     (111 m%)
+
+    ac: freq = 15.49 kHz   (46.6 %), step = 352.6 Hz     (111 m%)
+
+    ac: freq = 15.85 kHz   (46.7 %), step = 360.8 Hz     (111 m%)
+
+    ac: freq = 16.22 kHz   (46.8 %), step = 369.2 Hz     (111 m%)
+
+    ac: freq = 16.6 kHz    (46.9 %), step = 377.8 Hz     (111 m%)
+
+    ac: freq = 16.98 kHz     (47 %), step = 386.6 Hz     (111 m%)
+
+    ac: freq = 17.38 kHz   (47.1 %), step = 395.6 Hz     (111 m%)
+
+    ac: freq = 17.78 kHz   (47.2 %), step = 404.8 Hz     (111 m%)
+
+    ac: freq = 18.2 kHz    (47.3 %), step = 414.2 Hz     (111 m%)
+
+    ac: freq = 18.62 kHz   (47.4 %), step = 423.9 Hz     (111 m%)
+
+    ac: freq = 19.05 kHz   (47.6 %), step = 433.7 Hz     (111 m%)
+
+    ac: freq = 19.5 kHz    (47.7 %), step = 443.8 Hz     (111 m%)
+
+    ac: freq = 19.95 kHz   (47.8 %), step = 454.2 Hz     (111 m%)
+
+    ac: freq = 20.42 kHz   (47.9 %), step = 464.8 Hz     (111 m%)
+
+    ac: freq = 20.89 kHz     (48 %), step = 475.6 Hz     (111 m%)
+
+    ac: freq = 21.38 kHz   (48.1 %), step = 486.7 Hz     (111 m%)
+
+    ac: freq = 21.88 kHz   (48.2 %), step = 498 Hz       (111 m%)
+
+    ac: freq = 22.39 kHz   (48.3 %), step = 509.6 Hz     (111 m%)
+
+    ac: freq = 22.91 kHz   (48.4 %), step = 521.5 Hz     (111 m%)
+
+    ac: freq = 23.44 kHz   (48.6 %), step = 533.6 Hz     (111 m%)
+
+    ac: freq = 23.99 kHz   (48.7 %), step = 546 Hz       (111 m%)
+
+    ac: freq = 24.55 kHz   (48.8 %), step = 558.8 Hz     (111 m%)
+
+    ac: freq = 25.12 kHz   (48.9 %), step = 571.8 Hz     (111 m%)
+
+    ac: freq = 25.7 kHz      (49 %), step = 585.1 Hz     (111 m%)
+
+    ac: freq = 26.3 kHz    (49.1 %), step = 598.7 Hz     (111 m%)
+
+    ac: freq = 26.92 kHz   (49.2 %), step = 612.7 Hz     (111 m%)
+
+    ac: freq = 27.54 kHz   (49.3 %), step = 626.9 Hz     (111 m%)
+
+    ac: freq = 28.18 kHz   (49.4 %), step = 641.5 Hz     (111 m%)
+
+    ac: freq = 28.84 kHz   (49.6 %), step = 656.5 Hz     (111 m%)
+
+    ac: freq = 29.51 kHz   (49.7 %), step = 671.8 Hz     (111 m%)
+
+    ac: freq = 30.2 kHz    (49.8 %), step = 687.4 Hz     (111 m%)
+
+    ac: freq = 30.9 kHz    (49.9 %), step = 703.4 Hz     (111 m%)
+
+    ac: freq = 31.62 kHz     (50 %), step = 719.8 Hz     (111 m%)
+
+    ac: freq = 32.36 kHz   (50.1 %), step = 736.6 Hz     (111 m%)
+
+    ac: freq = 33.11 kHz   (50.2 %), step = 753.7 Hz     (111 m%)
+
+    ac: freq = 33.88 kHz   (50.3 %), step = 771.3 Hz     (111 m%)
+
+    ac: freq = 34.67 kHz   (50.4 %), step = 789.3 Hz     (111 m%)
+
+    ac: freq = 35.48 kHz   (50.6 %), step = 807.7 Hz     (111 m%)
+
+    ac: freq = 36.31 kHz   (50.7 %), step = 826.5 Hz     (111 m%)
+
+    ac: freq = 37.15 kHz   (50.8 %), step = 845.7 Hz     (111 m%)
+
+    ac: freq = 38.02 kHz   (50.9 %), step = 865.4 Hz     (111 m%)
+
+    ac: freq = 38.9 kHz      (51 %), step = 885.6 Hz     (111 m%)
+
+    ac: freq = 39.81 kHz   (51.1 %), step = 906.2 Hz     (111 m%)
+
+    ac: freq = 40.74 kHz   (51.2 %), step = 927.3 Hz     (111 m%)
+
+    ac: freq = 41.69 kHz   (51.3 %), step = 948.9 Hz     (111 m%)
+
+    ac: freq = 42.66 kHz   (51.4 %), step = 971 Hz       (111 m%)
+
+    ac: freq = 43.65 kHz   (51.6 %), step = 993.6 Hz     (111 m%)
+
+    ac: freq = 44.67 kHz   (51.7 %), step = 1.017 kHz    (111 m%)
+
+    ac: freq = 45.71 kHz   (51.8 %), step = 1.04 kHz     (111 m%)
+
+    ac: freq = 46.77 kHz   (51.9 %), step = 1.065 kHz    (111 m%)
+
+    ac: freq = 47.86 kHz     (52 %), step = 1.089 kHz    (111 m%)
+
+    ac: freq = 48.98 kHz   (52.1 %), step = 1.115 kHz    (111 m%)
+
+    ac: freq = 50.12 kHz   (52.2 %), step = 1.141 kHz    (111 m%)
+
+    ac: freq = 51.29 kHz   (52.3 %), step = 1.167 kHz    (111 m%)
+
+    ac: freq = 52.48 kHz   (52.4 %), step = 1.195 kHz    (111 m%)
+    ac: freq = 53.7 kHz    (52.6 %), step = 1.222 kHz    (111 m%)
+
+    ac: freq = 54.95 kHz   (52.7 %), step = 1.251 kHz    (111 m%)
+
+    ac: freq = 56.23 kHz   (52.8 %), step = 1.28 kHz     (111 m%)
+
+    ac: freq = 57.54 kHz   (52.9 %), step = 1.31 kHz     (111 m%)
+
+    ac: freq = 58.88 kHz     (53 %), step = 1.34 kHz     (111 m%)
+
+    ac: freq = 60.26 kHz   (53.1 %), step = 1.372 kHz    (111 m%)
+
+    ac: freq = 61.66 kHz   (53.2 %), step = 1.404 kHz    (111 m%)
+
+    ac: freq = 63.1 kHz    (53.3 %), step = 1.436 kHz    (111 m%)
+
+    ac: freq = 64.57 kHz   (53.4 %), step = 1.47 kHz     (111 m%)
+
+    ac: freq = 66.07 kHz   (53.6 %), step = 1.504 kHz    (111 m%)
+
+    ac: freq = 67.61 kHz   (53.7 %), step = 1.539 kHz    (111 m%)
+
+    ac: freq = 69.18 kHz   (53.8 %), step = 1.575 kHz    (111 m%)
+
+    ac: freq = 70.79 kHz   (53.9 %), step = 1.611 kHz    (111 m%)
+
+    ac: freq = 72.44 kHz     (54 %), step = 1.649 kHz    (111 m%)
+
+    ac: freq = 74.13 kHz   (54.1 %), step = 1.687 kHz    (111 m%)
+
+    ac: freq = 75.86 kHz   (54.2 %), step = 1.727 kHz    (111 m%)
+
+    ac: freq = 77.62 kHz   (54.3 %), step = 1.767 kHz    (111 m%)
+
+    ac: freq = 79.43 kHz   (54.4 %), step = 1.808 kHz    (111 m%)
+
+    ac: freq = 81.28 kHz   (54.6 %), step = 1.85 kHz     (111 m%)
+
+    ac: freq = 83.18 kHz   (54.7 %), step = 1.893 kHz    (111 m%)
+
+    ac: freq = 85.11 kHz   (54.8 %), step = 1.937 kHz    (111 m%)
+
+    ac: freq = 87.1 kHz    (54.9 %), step = 1.983 kHz    (111 m%)
+
+    ac: freq = 89.13 kHz     (55 %), step = 2.029 kHz    (111 m%)
+
+    ac: freq = 91.2 kHz    (55.1 %), step = 2.076 kHz    (111 m%)
+
+    ac: freq = 93.33 kHz   (55.2 %), step = 2.124 kHz    (111 m%)
+
+    ac: freq = 95.5 kHz    (55.3 %), step = 2.174 kHz    (111 m%)
+
+    ac: freq = 97.72 kHz   (55.4 %), step = 2.224 kHz    (111 m%)
+
+    ac: freq = 100 kHz     (55.6 %), step = 2.276 kHz    (111 m%)
+
+    ac: freq = 102.3 kHz   (55.7 %), step = 2.329 kHz    (111 m%)
+
+    ac: freq = 104.7 kHz   (55.8 %), step = 2.384 kHz    (111 m%)
+
+    ac: freq = 107.2 kHz   (55.9 %), step = 2.439 kHz    (111 m%)
+
+    ac: freq = 109.6 kHz     (56 %), step = 2.496 kHz    (111 m%)
+
+    ac: freq = 112.2 kHz   (56.1 %), step = 2.554 kHz    (111 m%)
+
+    ac: freq = 114.8 kHz   (56.2 %), step = 2.614 kHz    (111 m%)
+
+    ac: freq = 117.5 kHz   (56.3 %), step = 2.674 kHz    (111 m%)
+
+    ac: freq = 120.2 kHz   (56.4 %), step = 2.737 kHz    (111 m%)
+
+    ac: freq = 123 kHz     (56.6 %), step = 2.8 kHz      (111 m%)
+
+    ac: freq = 125.9 kHz   (56.7 %), step = 2.866 kHz    (111 m%)
+
+    ac: freq = 128.8 kHz   (56.8 %), step = 2.932 kHz    (111 m%)
+
+    ac: freq = 131.8 kHz   (56.9 %), step = 3.001 kHz    (111 m%)
+
+    ac: freq = 134.9 kHz     (57 %), step = 3.071 kHz    (111 m%)
+
+    ac: freq = 138 kHz     (57.1 %), step = 3.142 kHz    (111 m%)
+
+    ac: freq = 141.3 kHz   (57.2 %), step = 3.215 kHz    (111 m%)
+
+    ac: freq = 144.5 kHz   (57.3 %), step = 3.29 kHz     (111 m%)
+
+    ac: freq = 147.9 kHz   (57.4 %), step = 3.367 kHz    (111 m%)
+
+    ac: freq = 151.4 kHz   (57.6 %), step = 3.445 kHz    (111 m%)
+
+    ac: freq = 154.9 kHz   (57.7 %), step = 3.526 kHz    (111 m%)
+
+    ac: freq = 158.5 kHz   (57.8 %), step = 3.608 kHz    (111 m%)
+
+    ac: freq = 162.2 kHz   (57.9 %), step = 3.692 kHz    (111 m%)
+
+    ac: freq = 166 kHz       (58 %), step = 3.778 kHz    (111 m%)
+
+    ac: freq = 169.8 kHz   (58.1 %), step = 3.866 kHz    (111 m%)
+
+    ac: freq = 173.8 kHz   (58.2 %), step = 3.956 kHz    (111 m%)
+
+    ac: freq = 177.8 kHz   (58.3 %), step = 4.048 kHz    (111 m%)
+
+    ac: freq = 182 kHz     (58.4 %), step = 4.142 kHz    (111 m%)
+
+    ac: freq = 186.2 kHz   (58.6 %), step = 4.239 kHz    (111 m%)
+
+    ac: freq = 190.5 kHz   (58.7 %), step = 4.337 kHz    (111 m%)
+
+    ac: freq = 195 kHz     (58.8 %), step = 4.438 kHz    (111 m%)
+
+    ac: freq = 199.5 kHz   (58.9 %), step = 4.542 kHz    (111 m%)
+
+    ac: freq = 204.2 kHz     (59 %), step = 4.648 kHz    (111 m%)
+
+    ac: freq = 208.9 kHz   (59.1 %), step = 4.756 kHz    (111 m%)
+
+    ac: freq = 213.8 kHz   (59.2 %), step = 4.867 kHz    (111 m%)
+
+    ac: freq = 218.8 kHz   (59.3 %), step = 4.98 kHz     (111 m%)
+
+    ac: freq = 223.9 kHz   (59.4 %), step = 5.096 kHz    (111 m%)
+
+    ac: freq = 229.1 kHz   (59.6 %), step = 5.215 kHz    (111 m%)
+
+    ac: freq = 234.4 kHz   (59.7 %), step = 5.336 kHz    (111 m%)
+
+    ac: freq = 239.9 kHz   (59.8 %), step = 5.46 kHz     (111 m%)
+
+    ac: freq = 245.5 kHz   (59.9 %), step = 5.588 kHz    (111 m%)
+
+    ac: freq = 251.2 kHz     (60 %), step = 5.718 kHz    (111 m%)
+
+    ac: freq = 257 kHz     (60.1 %), step = 5.851 kHz    (111 m%)
+
+    ac: freq = 263 kHz     (60.2 %), step = 5.987 kHz    (111 m%)
+
+    ac: freq = 269.2 kHz   (60.3 %), step = 6.127 kHz    (111 m%)
+
+    ac: freq = 275.4 kHz   (60.4 %), step = 6.269 kHz    (111 m%)
+
+    ac: freq = 281.8 kHz   (60.6 %), step = 6.415 kHz    (111 m%)
+
+    ac: freq = 288.4 kHz   (60.7 %), step = 6.565 kHz    (111 m%)
+
+    ac: freq = 295.1 kHz   (60.8 %), step = 6.718 kHz    (111 m%)
+
+    ac: freq = 302 kHz     (60.9 %), step = 6.874 kHz    (111 m%)
+
+    ac: freq = 309 kHz       (61 %), step = 7.034 kHz    (111 m%)
+
+    ac: freq = 316.2 kHz   (61.1 %), step = 7.198 kHz    (111 m%)
+
+    ac: freq = 323.6 kHz   (61.2 %), step = 7.366 kHz    (111 m%)
+
+    ac: freq = 331.1 kHz   (61.3 %), step = 7.537 kHz    (111 m%)
+
+    ac: freq = 338.8 kHz   (61.4 %), step = 7.713 kHz    (111 m%)
+
+    ac: freq = 346.7 kHz   (61.6 %), step = 7.893 kHz    (111 m%)
+
+    ac: freq = 354.8 kHz   (61.7 %), step = 8.077 kHz    (111 m%)
+
+    ac: freq = 363.1 kHz   (61.8 %), step = 8.265 kHz    (111 m%)
+
+    ac: freq = 371.5 kHz   (61.9 %), step = 8.457 kHz    (111 m%)
+
+    ac: freq = 380.2 kHz     (62 %), step = 8.654 kHz    (111 m%)
+
+    ac: freq = 389 kHz     (62.1 %), step = 8.856 kHz    (111 m%)
+
+    ac: freq = 398.1 kHz   (62.2 %), step = 9.062 kHz    (111 m%)
+
+    ac: freq = 407.4 kHz   (62.3 %), step = 9.273 kHz    (111 m%)
+
+    ac: freq = 416.9 kHz   (62.4 %), step = 9.489 kHz    (111 m%)
+
+    ac: freq = 426.6 kHz   (62.6 %), step = 9.71 kHz     (111 m%)
+
+    ac: freq = 436.5 kHz   (62.7 %), step = 9.936 kHz    (111 m%)
+
+    ac: freq = 446.7 kHz   (62.8 %), step = 10.17 kHz    (111 m%)
+
+    ac: freq = 457.1 kHz   (62.9 %), step = 10.4 kHz     (111 m%)
+
+    ac: freq = 467.7 kHz     (63 %), step = 10.65 kHz    (111 m%)
+
+    ac: freq = 478.6 kHz   (63.1 %), step = 10.89 kHz    (111 m%)
+
+    ac: freq = 489.8 kHz   (63.2 %), step = 11.15 kHz    (111 m%)
+
+    ac: freq = 501.2 kHz   (63.3 %), step = 11.41 kHz    (111 m%)
+
+    ac: freq = 512.9 kHz   (63.4 %), step = 11.67 kHz    (111 m%)
+
+    ac: freq = 524.8 kHz   (63.6 %), step = 11.95 kHz    (111 m%)
+
+    ac: freq = 537 kHz     (63.7 %), step = 12.22 kHz    (111 m%)
+
+    ac: freq = 549.5 kHz   (63.8 %), step = 12.51 kHz    (111 m%)
+
+    ac: freq = 562.3 kHz   (63.9 %), step = 12.8 kHz     (111 m%)
+
+    ac: freq = 575.4 kHz     (64 %), step = 13.1 kHz     (111 m%)
+
+    ac: freq = 588.8 kHz   (64.1 %), step = 13.4 kHz     (111 m%)
+
+    ac: freq = 602.6 kHz   (64.2 %), step = 13.72 kHz    (111 m%)
+
+    ac: freq = 616.6 kHz   (64.3 %), step = 14.04 kHz    (111 m%)
+
+    ac: freq = 631 kHz     (64.4 %), step = 14.36 kHz    (111 m%)
+
+    ac: freq = 645.7 kHz   (64.6 %), step = 14.7 kHz     (111 m%)
+
+    ac: freq = 660.7 kHz   (64.7 %), step = 15.04 kHz    (111 m%)
+
+    ac: freq = 676.1 kHz   (64.8 %), step = 15.39 kHz    (111 m%)
+
+    ac: freq = 691.8 kHz   (64.9 %), step = 15.75 kHz    (111 m%)
+
+    ac: freq = 707.9 kHz     (65 %), step = 16.11 kHz    (111 m%)
+
+    ac: freq = 724.4 kHz   (65.1 %), step = 16.49 kHz    (111 m%)
+
+    ac: freq = 741.3 kHz   (65.2 %), step = 16.87 kHz    (111 m%)
+
+    ac: freq = 758.6 kHz   (65.3 %), step = 17.27 kHz    (111 m%)
+
+    ac: freq = 776.2 kHz   (65.4 %), step = 17.67 kHz    (111 m%)
+
+    ac: freq = 794.3 kHz   (65.6 %), step = 18.08 kHz    (111 m%)
+
+    ac: freq = 812.8 kHz   (65.7 %), step = 18.5 kHz     (111 m%)
+
+    ac: freq = 831.8 kHz   (65.8 %), step = 18.93 kHz    (111 m%)
+
+    ac: freq = 851.1 kHz   (65.9 %), step = 19.37 kHz    (111 m%)
+
+    ac: freq = 871 kHz       (66 %), step = 19.83 kHz    (111 m%)
+
+    ac: freq = 891.3 kHz   (66.1 %), step = 20.29 kHz    (111 m%)
+
+    ac: freq = 912 kHz     (66.2 %), step = 20.76 kHz    (111 m%)
+
+    ac: freq = 933.3 kHz   (66.3 %), step = 21.24 kHz    (111 m%)
+
+    ac: freq = 955 kHz     (66.4 %), step = 21.74 kHz    (111 m%)
+
+    ac: freq = 977.2 kHz   (66.6 %), step = 22.24 kHz    (111 m%)
+
+    ac: freq = 1 MHz       (66.7 %), step = 22.76 kHz    (111 m%)
+
+    ac: freq = 1.023 MHz   (66.8 %), step = 23.29 kHz    (111 m%)
+
+    ac: freq = 1.047 MHz   (66.9 %), step = 23.84 kHz    (111 m%)
+
+    ac: freq = 1.072 MHz     (67 %), step = 24.39 kHz    (111 m%)
+
+    ac: freq = 1.096 MHz   (67.1 %), step = 24.96 kHz    (111 m%)
+
+    ac: freq = 1.122 MHz   (67.2 %), step = 25.54 kHz    (111 m%)
+
+    ac: freq = 1.148 MHz   (67.3 %), step = 26.14 kHz    (111 m%)
+
+    ac: freq = 1.175 MHz   (67.4 %), step = 26.74 kHz    (111 m%)
+
+    ac: freq = 1.202 MHz   (67.6 %), step = 27.37 kHz    (111 m%)
+
+    ac: freq = 1.23 MHz    (67.7 %), step = 28 kHz       (111 m%)
+
+    ac: freq = 1.259 MHz   (67.8 %), step = 28.66 kHz    (111 m%)
+
+    ac: freq = 1.288 MHz   (67.9 %), step = 29.32 kHz    (111 m%)
+
+    ac: freq = 1.318 MHz     (68 %), step = 30.01 kHz    (111 m%)
+    ac: freq = 1.349 MHz   (68.1 %), step = 30.71 kHz    (111 m%)
+    ac: freq = 1.38 MHz    (68.2 %), step = 31.42 kHz    (111 m%)
+    ac: freq = 1.413 MHz   (68.3 %), step = 32.15 kHz    (111 m%)
+    ac: freq = 1.445 MHz   (68.4 %), step = 32.9 kHz     (111 m%)
+    ac: freq = 1.479 MHz   (68.6 %), step = 33.67 kHz    (111 m%)
+    ac: freq = 1.514 MHz   (68.7 %), step = 34.45 kHz    (111 m%)
+    ac: freq = 1.549 MHz   (68.8 %), step = 35.26 kHz    (111 m%)
+    ac: freq = 1.585 MHz   (68.9 %), step = 36.08 kHz    (111 m%)
+    ac: freq = 1.622 MHz     (69 %), step = 36.92 kHz    (111 m%)
+    ac: freq = 1.66 MHz    (69.1 %), step = 37.78 kHz    (111 m%)
+    ac: freq = 1.698 MHz   (69.2 %), step = 38.66 kHz    (111 m%)
+    ac: freq = 1.738 MHz   (69.3 %), step = 39.56 kHz    (111 m%)
+    ac: freq = 1.778 MHz   (69.4 %), step = 40.48 kHz    (111 m%)
+    ac: freq = 1.82 MHz    (69.6 %), step = 41.42 kHz    (111 m%)
+    ac: freq = 1.862 MHz   (69.7 %), step = 42.39 kHz    (111 m%)
+    ac: freq = 1.905 MHz   (69.8 %), step = 43.37 kHz    (111 m%)
+    ac: freq = 1.95 MHz    (69.9 %), step = 44.38 kHz    (111 m%)
+    ac: freq = 1.995 MHz     (70 %), step = 45.42 kHz    (111 m%)
+    ac: freq = 2.042 MHz   (70.1 %), step = 46.48 kHz    (111 m%)
+    ac: freq = 2.089 MHz   (70.2 %), step = 47.56 kHz    (111 m%)
+
+    ac: freq = 2.138 MHz   (70.3 %), step = 48.67 kHz    (111 m%)
+
+    ac: freq = 2.188 MHz   (70.4 %), step = 49.8 kHz     (111 m%)
+
+    ac: freq = 2.239 MHz   (70.6 %), step = 50.96 kHz    (111 m%)
+
+    ac: freq = 2.291 MHz   (70.7 %), step = 52.15 kHz    (111 m%)
+
+    ac: freq = 2.344 MHz   (70.8 %), step = 53.36 kHz    (111 m%)
+
+    ac: freq = 2.399 MHz   (70.9 %), step = 54.6 kHz     (111 m%)
+
+    ac: freq = 2.455 MHz     (71 %), step = 55.88 kHz    (111 m%)
+
+    ac: freq = 2.512 MHz   (71.1 %), step = 57.18 kHz    (111 m%)
+
+    ac: freq = 2.57 MHz    (71.2 %), step = 58.51 kHz    (111 m%)
+
+    ac: freq = 2.63 MHz    (71.3 %), step = 59.87 kHz    (111 m%)
+
+    ac: freq = 2.692 MHz   (71.4 %), step = 61.27 kHz    (111 m%)
+
+    ac: freq = 2.754 MHz   (71.6 %), step = 62.69 kHz    (111 m%)
+
+    ac: freq = 2.818 MHz   (71.7 %), step = 64.15 kHz    (111 m%)
+
+    ac: freq = 2.884 MHz   (71.8 %), step = 65.65 kHz    (111 m%)
+
+    ac: freq = 2.951 MHz   (71.9 %), step = 67.18 kHz    (111 m%)
+
+    ac: freq = 3.02 MHz      (72 %), step = 68.74 kHz    (111 m%)
+
+    ac: freq = 3.09 MHz    (72.1 %), step = 70.34 kHz    (111 m%)
+
+    ac: freq = 3.162 MHz   (72.2 %), step = 71.98 kHz    (111 m%)
+
+    ac: freq = 3.236 MHz   (72.3 %), step = 73.66 kHz    (111 m%)
+
+    ac: freq = 3.311 MHz   (72.4 %), step = 75.37 kHz    (111 m%)
+
+    ac: freq = 3.388 MHz   (72.6 %), step = 77.13 kHz    (111 m%)
+
+    ac: freq = 3.467 MHz   (72.7 %), step = 78.93 kHz    (111 m%)
+
+    ac: freq = 3.548 MHz   (72.8 %), step = 80.77 kHz    (111 m%)
+
+    ac: freq = 3.631 MHz   (72.9 %), step = 82.65 kHz    (111 m%)
+
+    ac: freq = 3.715 MHz     (73 %), step = 84.57 kHz    (111 m%)
+
+    ac: freq = 3.802 MHz   (73.1 %), step = 86.54 kHz    (111 m%)
+
+    ac: freq = 3.89 MHz    (73.2 %), step = 88.56 kHz    (111 m%)
+
+    ac: freq = 3.981 MHz   (73.3 %), step = 90.62 kHz    (111 m%)
+
+    ac: freq = 4.074 MHz   (73.4 %), step = 92.73 kHz    (111 m%)
+
+    ac: freq = 4.169 MHz   (73.6 %), step = 94.89 kHz    (111 m%)
+
+    ac: freq = 4.266 MHz   (73.7 %), step = 97.1 kHz     (111 m%)
+
+    ac: freq = 4.365 MHz   (73.8 %), step = 99.36 kHz    (111 m%)
+
+    ac: freq = 4.467 MHz   (73.9 %), step = 101.7 kHz    (111 m%)
+
+    ac: freq = 4.571 MHz     (74 %), step = 104 kHz      (111 m%)
+
+    ac: freq = 4.677 MHz   (74.1 %), step = 106.5 kHz    (111 m%)
+
+    ac: freq = 4.786 MHz   (74.2 %), step = 108.9 kHz    (111 m%)
+
+    ac: freq = 4.898 MHz   (74.3 %), step = 111.5 kHz    (111 m%)
+
+    ac: freq = 5.012 MHz   (74.4 %), step = 114.1 kHz    (111 m%)
+
+    ac: freq = 5.129 MHz   (74.6 %), step = 116.7 kHz    (111 m%)
+
+    ac: freq = 5.248 MHz   (74.7 %), step = 119.5 kHz    (111 m%)
+
+    ac: freq = 5.37 MHz    (74.8 %), step = 122.2 kHz    (111 m%)
+
+    ac: freq = 5.495 MHz   (74.9 %), step = 125.1 kHz    (111 m%)
+
+    ac: freq = 5.623 MHz     (75 %), step = 128 kHz      (111 m%)
+
+    ac: freq = 5.754 MHz   (75.1 %), step = 131 kHz      (111 m%)
+
+    ac: freq = 5.888 MHz   (75.2 %), step = 134 kHz      (111 m%)
+
+    ac: freq = 6.026 MHz   (75.3 %), step = 137.2 kHz    (111 m%)
+
+    ac: freq = 6.166 MHz   (75.4 %), step = 140.4 kHz    (111 m%)
+
+    ac: freq = 6.31 MHz    (75.6 %), step = 143.6 kHz    (111 m%)
+
+    ac: freq = 6.457 MHz   (75.7 %), step = 147 kHz      (111 m%)
+
+    ac: freq = 6.607 MHz   (75.8 %), step = 150.4 kHz    (111 m%)
+
+    ac: freq = 6.761 MHz   (75.9 %), step = 153.9 kHz    (111 m%)
+
+    ac: freq = 6.918 MHz     (76 %), step = 157.5 kHz    (111 m%)
+
+    ac: freq = 7.079 MHz   (76.1 %), step = 161.1 kHz    (111 m%)
+
+    ac: freq = 7.244 MHz   (76.2 %), step = 164.9 kHz    (111 m%)
+
+    ac: freq = 7.413 MHz   (76.3 %), step = 168.7 kHz    (111 m%)
+
+    ac: freq = 7.586 MHz   (76.4 %), step = 172.7 kHz    (111 m%)
+
+    ac: freq = 7.762 MHz   (76.6 %), step = 176.7 kHz    (111 m%)
+
+    ac: freq = 7.943 MHz   (76.7 %), step = 180.8 kHz    (111 m%)
+
+    ac: freq = 8.128 MHz   (76.8 %), step = 185 kHz      (111 m%)
+
+    ac: freq = 8.318 MHz   (76.9 %), step = 189.3 kHz    (111 m%)
+
+    ac: freq = 8.511 MHz     (77 %), step = 193.7 kHz    (111 m%)
+
+    ac: freq = 8.71 MHz    (77.1 %), step = 198.3 kHz    (111 m%)
+
+    ac: freq = 8.913 MHz   (77.2 %), step = 202.9 kHz    (111 m%)
+
+    ac: freq = 9.12 MHz    (77.3 %), step = 207.6 kHz    (111 m%)
+
+    ac: freq = 9.333 MHz   (77.4 %), step = 212.4 kHz    (111 m%)
+
+    ac: freq = 9.55 MHz    (77.6 %), step = 217.4 kHz    (111 m%)
+
+    ac: freq = 9.772 MHz   (77.7 %), step = 222.4 kHz    (111 m%)
+
+    ac: freq = 10 MHz      (77.8 %), step = 227.6 kHz    (111 m%)
+
+    ac: freq = 10.23 MHz   (77.9 %), step = 232.9 kHz    (111 m%)
+
+    ac: freq = 10.47 MHz     (78 %), step = 238.4 kHz    (111 m%)
+
+    ac: freq = 10.72 MHz   (78.1 %), step = 243.9 kHz    (111 m%)
+
+    ac: freq = 10.96 MHz   (78.2 %), step = 249.6 kHz    (111 m%)
+
+    ac: freq = 11.22 MHz   (78.3 %), step = 255.4 kHz    (111 m%)
+
+    ac: freq = 11.48 MHz   (78.4 %), step = 261.4 kHz    (111 m%)
+
+    ac: freq = 11.75 MHz   (78.6 %), step = 267.4 kHz    (111 m%)
+
+    ac: freq = 12.02 MHz   (78.7 %), step = 273.7 kHz    (111 m%)
+
+    ac: freq = 12.3 MHz    (78.8 %), step = 280 kHz      (111 m%)
+
+    ac: freq = 12.59 MHz   (78.9 %), step = 286.6 kHz    (111 m%)
+
+    ac: freq = 12.88 MHz     (79 %), step = 293.2 kHz    (111 m%)
+
+    ac: freq = 13.18 MHz   (79.1 %), step = 300.1 kHz    (111 m%)
+
+    ac: freq = 13.49 MHz   (79.2 %), step = 307.1 kHz    (111 m%)
+
+    ac: freq = 13.8 MHz    (79.3 %), step = 314.2 kHz    (111 m%)
+
+    ac: freq = 14.13 MHz   (79.4 %), step = 321.5 kHz    (111 m%)
+
+    ac: freq = 14.45 MHz   (79.6 %), step = 329 kHz      (111 m%)
+
+    ac: freq = 14.79 MHz   (79.7 %), step = 336.7 kHz    (111 m%)
+
+    ac: freq = 15.14 MHz   (79.8 %), step = 344.5 kHz    (111 m%)
+
+    ac: freq = 15.49 MHz   (79.9 %), step = 352.6 kHz    (111 m%)
+
+    ac: freq = 15.85 MHz     (80 %), step = 360.8 kHz    (111 m%)
+
+    ac: freq = 16.22 MHz   (80.1 %), step = 369.2 kHz    (111 m%)
+
+    ac: freq = 16.6 MHz    (80.2 %), step = 377.8 kHz    (111 m%)
+
+    ac: freq = 16.98 MHz   (80.3 %), step = 386.6 kHz    (111 m%)
+
+    ac: freq = 17.38 MHz   (80.4 %), step = 395.6 kHz    (111 m%)
+
+    ac: freq = 17.78 MHz   (80.6 %), step = 404.8 kHz    (111 m%)
+
+    ac: freq = 18.2 MHz    (80.7 %), step = 414.2 kHz    (111 m%)
+
+    ac: freq = 18.62 MHz   (80.8 %), step = 423.9 kHz    (111 m%)
+
+    ac: freq = 19.05 MHz   (80.9 %), step = 433.7 kHz    (111 m%)
+
+    ac: freq = 19.5 MHz      (81 %), step = 443.8 kHz    (111 m%)
+
+    ac: freq = 19.95 MHz   (81.1 %), step = 454.2 kHz    (111 m%)
+
+    ac: freq = 20.42 MHz   (81.2 %), step = 464.8 kHz    (111 m%)
+
+    ac: freq = 20.89 MHz   (81.3 %), step = 475.6 kHz    (111 m%)
+
+    ac: freq = 21.38 MHz   (81.4 %), step = 486.7 kHz    (111 m%)
+
+    ac: freq = 21.88 MHz   (81.6 %), step = 498 kHz      (111 m%)
+
+    ac: freq = 22.39 MHz   (81.7 %), step = 509.6 kHz    (111 m%)
+
+    ac: freq = 22.91 MHz   (81.8 %), step = 521.5 kHz    (111 m%)
+
+    ac: freq = 23.44 MHz   (81.9 %), step = 533.6 kHz    (111 m%)
+
+    ac: freq = 23.99 MHz     (82 %), step = 546 kHz      (111 m%)
+
+    ac: freq = 24.55 MHz   (82.1 %), step = 558.8 kHz    (111 m%)
+
+    ac: freq = 25.12 MHz   (82.2 %), step = 571.8 kHz    (111 m%)
+
+    ac: freq = 25.7 MHz    (82.3 %), step = 585.1 kHz    (111 m%)
+    ac: freq = 26.3 MHz    (82.4 %), step = 598.7 kHz    (111 m%)
+    ac: freq = 26.92 MHz   (82.6 %), step = 612.7 kHz    (111 m%)
+    ac: freq = 27.54 MHz   (82.7 %), step = 626.9 kHz    (111 m%)
+    ac: freq = 28.18 MHz   (82.8 %), step = 641.5 kHz    (111 m%)
+    ac: freq = 28.84 MHz   (82.9 %), step = 656.5 kHz    (111 m%)
+    ac: freq = 29.51 MHz     (83 %), step = 671.8 kHz    (111 m%)
+    ac: freq = 30.2 MHz    (83.1 %), step = 687.4 kHz    (111 m%)
+    ac: freq = 30.9 MHz    (83.2 %), step = 703.4 kHz    (111 m%)
+    ac: freq = 31.62 MHz   (83.3 %), step = 719.8 kHz    (111 m%)
+
+    ac: freq = 32.36 MHz   (83.4 %), step = 736.6 kHz    (111 m%)
+
+    ac: freq = 33.11 MHz   (83.6 %), step = 753.7 kHz    (111 m%)
+    ac: freq = 33.88 MHz   (83.7 %), step = 771.3 kHz    (111 m%)
+    ac: freq = 34.67 MHz   (83.8 %), step = 789.3 kHz    (111 m%)
+    ac: freq = 35.48 MHz   (83.9 %), step = 807.7 kHz    (111 m%)
+    ac: freq = 36.31 MHz     (84 %), step = 826.5 kHz    (111 m%)
+    ac: freq = 37.15 MHz   (84.1 %), step = 845.7 kHz    (111 m%)
+    ac: freq = 38.02 MHz   (84.2 %), step = 865.4 kHz    (111 m%)
+    ac: freq = 38.9 MHz    (84.3 %), step = 885.6 kHz    (111 m%)
+    ac: freq = 39.81 MHz   (84.4 %), step = 906.2 kHz    (111 m%)
+    ac: freq = 40.74 MHz   (84.6 %), step = 927.3 kHz    (111 m%)
+    ac: freq = 41.69 MHz   (84.7 %), step = 948.9 kHz    (111 m%)
+    ac: freq = 42.66 MHz   (84.8 %), step = 971 kHz      (111 m%)
+    ac: freq = 43.65 MHz   (84.9 %), step = 993.6 kHz    (111 m%)
+
+    ac: freq = 44.67 MHz     (85 %), step = 1.017 MHz    (111 m%)
+
+    ac: freq = 45.71 MHz   (85.1 %), step = 1.04 MHz     (111 m%)
+
+    ac: freq = 46.77 MHz   (85.2 %), step = 1.065 MHz    (111 m%)
+
+    ac: freq = 47.86 MHz   (85.3 %), step = 1.089 MHz    (111 m%)
+
+    ac: freq = 48.98 MHz   (85.4 %), step = 1.115 MHz    (111 m%)
+
+    ac: freq = 50.12 MHz   (85.6 %), step = 1.141 MHz    (111 m%)
+
+    ac: freq = 51.29 MHz   (85.7 %), step = 1.167 MHz    (111 m%)
+
+    ac: freq = 52.48 MHz   (85.8 %), step = 1.195 MHz    (111 m%)
+
+    ac: freq = 53.7 MHz    (85.9 %), step = 1.222 MHz    (111 m%)
+
+    ac: freq = 54.95 MHz     (86 %), step = 1.251 MHz    (111 m%)
+
+    ac: freq = 56.23 MHz   (86.1 %), step = 1.28 MHz     (111 m%)
+
+    ac: freq = 57.54 MHz   (86.2 %), step = 1.31 MHz     (111 m%)
+
+    ac: freq = 58.88 MHz   (86.3 %), step = 1.34 MHz     (111 m%)
+
+    ac: freq = 60.26 MHz   (86.4 %), step = 1.372 MHz    (111 m%)
+
+    ac: freq = 61.66 MHz   (86.6 %), step = 1.404 MHz    (111 m%)
+
+    ac: freq = 63.1 MHz    (86.7 %), step = 1.436 MHz    (111 m%)
+
+    ac: freq = 64.57 MHz   (86.8 %), step = 1.47 MHz     (111 m%)
+
+    ac: freq = 66.07 MHz   (86.9 %), step = 1.504 MHz    (111 m%)
+
+    ac: freq = 67.61 MHz     (87 %), step = 1.539 MHz    (111 m%)
+
+    ac: freq = 69.18 MHz   (87.1 %), step = 1.575 MHz    (111 m%)
+
+    ac: freq = 70.79 MHz   (87.2 %), step = 1.611 MHz    (111 m%)
+
+    ac: freq = 72.44 MHz   (87.3 %), step = 1.649 MHz    (111 m%)
+
+    ac: freq = 74.13 MHz   (87.4 %), step = 1.687 MHz    (111 m%)
+
+    ac: freq = 75.86 MHz   (87.6 %), step = 1.727 MHz    (111 m%)
+
+    ac: freq = 77.62 MHz   (87.7 %), step = 1.767 MHz    (111 m%)
+
+    ac: freq = 79.43 MHz   (87.8 %), step = 1.808 MHz    (111 m%)
+
+    ac: freq = 81.28 MHz   (87.9 %), step = 1.85 MHz     (111 m%)
+
+    ac: freq = 83.18 MHz     (88 %), step = 1.893 MHz    (111 m%)
+
+    ac: freq = 85.11 MHz   (88.1 %), step = 1.937 MHz    (111 m%)
+
+    ac: freq = 87.1 MHz    (88.2 %), step = 1.983 MHz    (111 m%)
+
+    ac: freq = 89.13 MHz   (88.3 %), step = 2.029 MHz    (111 m%)
+
+    ac: freq = 91.2 MHz    (88.4 %), step = 2.076 MHz    (111 m%)
+
+    ac: freq = 93.33 MHz   (88.6 %), step = 2.124 MHz    (111 m%)
+
+    ac: freq = 95.5 MHz    (88.7 %), step = 2.174 MHz    (111 m%)
+
+    ac: freq = 97.72 MHz   (88.8 %), step = 2.224 MHz    (111 m%)
+
+    ac: freq = 100 MHz     (88.9 %), step = 2.276 MHz    (111 m%)
+
+    ac: freq = 102.3 MHz     (89 %), step = 2.329 MHz    (111 m%)
+
+    ac: freq = 104.7 MHz   (89.1 %), step = 2.384 MHz    (111 m%)
+
+    ac: freq = 107.2 MHz   (89.2 %), step = 2.439 MHz    (111 m%)
+
+    ac: freq = 109.6 MHz   (89.3 %), step = 2.496 MHz    (111 m%)
+
+    ac: freq = 112.2 MHz   (89.4 %), step = 2.554 MHz    (111 m%)
+
+    ac: freq = 114.8 MHz   (89.6 %), step = 2.614 MHz    (111 m%)
+
+    ac: freq = 117.5 MHz   (89.7 %), step = 2.674 MHz    (111 m%)
+
+    ac: freq = 120.2 MHz   (89.8 %), step = 2.737 MHz    (111 m%)
+
+    ac: freq = 123 MHz     (89.9 %), step = 2.8 MHz      (111 m%)
+
+    ac: freq = 125.9 MHz     (90 %), step = 2.866 MHz    (111 m%)
+
+    ac: freq = 128.8 MHz   (90.1 %), step = 2.932 MHz    (111 m%)
+
+    ac: freq = 131.8 MHz   (90.2 %), step = 3.001 MHz    (111 m%)
+
+    ac: freq = 134.9 MHz   (90.3 %), step = 3.071 MHz    (111 m%)
+
+    ac: freq = 138 MHz     (90.4 %), step = 3.142 MHz    (111 m%)
+
+    ac: freq = 141.3 MHz   (90.6 %), step = 3.215 MHz    (111 m%)
+
+    ac: freq = 144.5 MHz   (90.7 %), step = 3.29 MHz     (111 m%)
+
+    ac: freq = 147.9 MHz   (90.8 %), step = 3.367 MHz    (111 m%)
+
+    ac: freq = 151.4 MHz   (90.9 %), step = 3.445 MHz    (111 m%)
+
+    ac: freq = 154.9 MHz     (91 %), step = 3.526 MHz    (111 m%)
+
+    ac: freq = 158.5 MHz   (91.1 %), step = 3.608 MHz    (111 m%)
+
+    ac: freq = 162.2 MHz   (91.2 %), step = 3.692 MHz    (111 m%)
+
+    ac: freq = 166 MHz     (91.3 %), step = 3.778 MHz    (111 m%)
+
+    ac: freq = 169.8 MHz   (91.4 %), step = 3.866 MHz    (111 m%)
+
+    ac: freq = 173.8 MHz   (91.6 %), step = 3.956 MHz    (111 m%)
+
+    ac: freq = 177.8 MHz   (91.7 %), step = 4.048 MHz    (111 m%)
+
+    ac: freq = 182 MHz     (91.8 %), step = 4.142 MHz    (111 m%)
+
+    ac: freq = 186.2 MHz   (91.9 %), step = 4.239 MHz    (111 m%)
+
+    ac: freq = 190.5 MHz     (92 %), step = 4.337 MHz    (111 m%)
+
+    ac: freq = 195 MHz     (92.1 %), step = 4.438 MHz    (111 m%)
+
+    ac: freq = 199.5 MHz   (92.2 %), step = 4.542 MHz    (111 m%)
+
+    ac: freq = 204.2 MHz   (92.3 %), step = 4.648 MHz    (111 m%)
+
+    ac: freq = 208.9 MHz   (92.4 %), step = 4.756 MHz    (111 m%)
+
+    ac: freq = 213.8 MHz   (92.6 %), step = 4.867 MHz    (111 m%)
+
+    ac: freq = 218.8 MHz   (92.7 %), step = 4.98 MHz     (111 m%)
+
+    ac: freq = 223.9 MHz   (92.8 %), step = 5.096 MHz    (111 m%)
+
+    ac: freq = 229.1 MHz   (92.9 %), step = 5.215 MHz    (111 m%)
+
+    ac: freq = 234.4 MHz     (93 %), step = 5.336 MHz    (111 m%)
+
+    ac: freq = 239.9 MHz   (93.1 %), step = 5.46 MHz     (111 m%)
+
+    ac: freq = 245.5 MHz   (93.2 %), step = 5.588 MHz    (111 m%)
+
+    ac: freq = 251.2 MHz   (93.3 %), step = 5.718 MHz    (111 m%)
+
+    ac: freq = 257 MHz     (93.4 %), step = 5.851 MHz    (111 m%)
+
+    ac: freq = 263 MHz     (93.6 %), step = 5.987 MHz    (111 m%)
+
+    ac: freq = 269.2 MHz   (93.7 %), step = 6.127 MHz    (111 m%)
+
+    ac: freq = 275.4 MHz   (93.8 %), step = 6.269 MHz    (111 m%)
+
+    ac: freq = 281.8 MHz   (93.9 %), step = 6.415 MHz    (111 m%)
+
+    ac: freq = 288.4 MHz     (94 %), step = 6.565 MHz    (111 m%)
+
+    ac: freq = 295.1 MHz   (94.1 %), step = 6.718 MHz    (111 m%)
+
+    ac: freq = 302 MHz     (94.2 %), step = 6.874 MHz    (111 m%)
+
+    ac: freq = 309 MHz     (94.3 %), step = 7.034 MHz    (111 m%)
+
+    ac: freq = 316.2 MHz   (94.4 %), step = 7.198 MHz    (111 m%)
+
+    ac: freq = 323.6 MHz   (94.6 %), step = 7.366 MHz    (111 m%)
+
+    ac: freq = 331.1 MHz   (94.7 %), step = 7.537 MHz    (111 m%)
+
+    ac: freq = 338.8 MHz   (94.8 %), step = 7.713 MHz    (111 m%)
+
+    ac: freq = 346.7 MHz   (94.9 %), step = 7.893 MHz    (111 m%)
+
+    ac: freq = 354.8 MHz     (95 %), step = 8.077 MHz    (111 m%)
+
+    ac: freq = 363.1 MHz   (95.1 %), step = 8.265 MHz    (111 m%)
+
+    ac: freq = 371.5 MHz   (95.2 %), step = 8.457 MHz    (111 m%)
+
+    ac: freq = 380.2 MHz   (95.3 %), step = 8.654 MHz    (111 m%)
+
+    ac: freq = 389 MHz     (95.4 %), step = 8.856 MHz    (111 m%)
+
+    ac: freq = 398.1 MHz   (95.6 %), step = 9.062 MHz    (111 m%)
+
+    ac: freq = 407.4 MHz   (95.7 %), step = 9.273 MHz    (111 m%)
+
+    ac: freq = 416.9 MHz   (95.8 %), step = 9.489 MHz    (111 m%)
+
+    ac: freq = 426.6 MHz   (95.9 %), step = 9.71 MHz     (111 m%)
+
+    ac: freq = 436.5 MHz     (96 %), step = 9.936 MHz    (111 m%)
+
+    ac: freq = 446.7 MHz   (96.1 %), step = 10.17 MHz    (111 m%)
+
+    ac: freq = 457.1 MHz   (96.2 %), step = 10.4 MHz     (111 m%)
+
+    ac: freq = 467.7 MHz   (96.3 %), step = 10.65 MHz    (111 m%)
+
+    ac: freq = 478.6 MHz   (96.4 %), step = 10.89 MHz    (111 m%)
+
+    ac: freq = 489.8 MHz   (96.6 %), step = 11.15 MHz    (111 m%)
+
+    ac: freq = 501.2 MHz   (96.7 %), step = 11.41 MHz    (111 m%)
+
+    ac: freq = 512.9 MHz   (96.8 %), step = 11.67 MHz    (111 m%)
+
+    ac: freq = 524.8 MHz   (96.9 %), step = 11.95 MHz    (111 m%)
+
+    ac: freq = 537 MHz       (97 %), step = 12.22 MHz    (111 m%)
+
+    ac: freq = 549.5 MHz   (97.1 %), step = 12.51 MHz    (111 m%)
+
+    ac: freq = 562.3 MHz   (97.2 %), step = 12.8 MHz     (111 m%)
+
+    ac: freq = 575.4 MHz   (97.3 %), step = 13.1 MHz     (111 m%)
+
+    ac: freq = 588.8 MHz   (97.4 %), step = 13.4 MHz     (111 m%)
+
+    ac: freq = 602.6 MHz   (97.6 %), step = 13.72 MHz    (111 m%)
+
+    ac: freq = 616.6 MHz   (97.7 %), step = 14.04 MHz    (111 m%)
+
+    ac: freq = 631 MHz     (97.8 %), step = 14.36 MHz    (111 m%)
+
+    ac: freq = 645.7 MHz   (97.9 %), step = 14.7 MHz     (111 m%)
+
+    ac: freq = 660.7 MHz     (98 %), step = 15.04 MHz    (111 m%)
+
+    ac: freq = 676.1 MHz   (98.1 %), step = 15.39 MHz    (111 m%)
+
+    ac: freq = 691.8 MHz   (98.2 %), step = 15.75 MHz    (111 m%)
+
+    ac: freq = 707.9 MHz   (98.3 %), step = 16.11 MHz    (111 m%)
+
+    ac: freq = 724.4 MHz   (98.4 %), step = 16.49 MHz    (111 m%)
+
+    ac: freq = 741.3 MHz   (98.6 %), step = 16.87 MHz    (111 m%)
+
+    ac: freq = 758.6 MHz   (98.7 %), step = 17.27 MHz    (111 m%)
+
+    ac: freq = 776.2 MHz   (98.8 %), step = 17.67 MHz    (111 m%)
+
+    ac: freq = 794.3 MHz   (98.9 %), step = 18.08 MHz    (111 m%)
+
+    ac: freq = 812.8 MHz     (99 %), step = 18.5 MHz     (111 m%)
+
+    ac: freq = 831.8 MHz   (99.1 %), step = 18.93 MHz    (111 m%)
+
+    ac: freq = 851.1 MHz   (99.2 %), step = 19.37 MHz    (111 m%)
+
+    ac: freq = 871 MHz     (99.3 %), step = 19.83 MHz    (111 m%)
+
+    ac: freq = 891.3 MHz   (99.4 %), step = 20.29 MHz    (111 m%)
+
+    ac: freq = 912 MHz     (99.6 %), step = 20.76 MHz    (111 m%)
+
+    ac: freq = 933.3 MHz   (99.7 %), step = 21.24 MHz    (111 m%)
+
+    ac: freq = 955 MHz     (99.8 %), step = 21.74 MHz    (111 m%)
+
+    ac: freq = 977.2 MHz   (99.9 %), step = 22.24 MHz    (111 m%)
+
+    ac: freq = 1 GHz        (100 %), step = 22.76 MHz    (111 m%)
+
+Accumulated DC solution time = 0 s.
+Intrinsic ac analysis time =              70 ms.
+
+Total time required for ac analysis `ac': CPU = 70.736 ms, elapsed = 117.165
+        ms.
+
+Time accumulated: CPU = 2.04587 s, elapsed = 2.14106 s.
+Peak resident memory used = 51.5 Mbytes.
+
+
+modelParameter: writing model parameter values to rawfile.
+
+element: writing instance parameter values to rawfile.
+
+outputParameter: writing output parameter values to rawfile.
+
+designParamVals: writing netlist parameters to rawfile.
+
+primitives: writing primitives to rawfile.
+
+subckts: writing subcircuits to rawfile.
+
+
+Aggregate audit (7:48:25 PM, Sun Nov 13, 2022):
+
+Time used: CPU = 2.06 s, elapsed = 2.48 s, util. = 83.1%.
+
+Time spent in licensing: elapsed = 1.9 s, percentage of total = 76.5%.
+
+Peak memory used = 51.6 Mbytes.
+
+Simulation started at: 7:48:23 PM, Sun Nov 13, 2022, ended at: 7:48:25 PM, Sun
+        Nov 13, 2022, with elapsed time (wall clock): 2.48 s.
+
+spectre completes with 0 errors, 1 warning, and 2 notices.
+
+reading simulation data...
+      ...successful.

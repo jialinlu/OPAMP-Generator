@@ -1,0 +1,6 @@
+.param g_vin_1 = 0.13747402668697523
+.param rscl_vin_1_prs = 63.5538055196622
+.param g_1_2 = 0.06359181490676474
+.param rscl_1_2_prs = 80.0
+.param g_2_vo = 0.02508556771607623
+.param rscl_2_vo_prs = 73.32903831687511

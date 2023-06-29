@@ -1,0 +1,17 @@
+V0 (net_vin 0) vsource mag=1 type=sine
+G_vin_1 (net_1 0 net_vin 0) vccs gm=g_vin_1*1m
+R_1_0_prs (net_1 0) resistor r=rscl_vin_1_prs/g_vin_1*1K
+C_1_0_prs (net_1 0) capacitor c=g_1_2/6.28*5p
+G_1_2 (net_2 0 net_1 0) vccs gm=g_1_2*-1m
+R_2_0_prs (net_2 0) resistor r=rscl_1_2_prs/g_1_2*1K
+C_2_0_prs (net_2 0) capacitor c=g_2_vo/6.28*5p
+G_2_vo (net_vo 0 net_2 0) vccs gm=g_2_vo*1m
+R_vo_0_prs (net_vo 0) resistor r=rscl_2_vo_prs/g_2_vo*1K
+G_vo_vin (net_vo 0 net_vin 0) vccs gm=gm_vo_vin*1m
+R_vo_01 (net_vo 0) resistor r=r_vo_01/gm_vo_vin*1K
+C_vo_01 (net_vo 0) capacitor c=c_vo_01*1p
+C_input_1 (net_vin 0) capacitor c=gm_vo_vin/6.28*5p
+C_1_vo (net_1 net_vo) capacitor c=c_1_vo*1p
+R_1_1_0 (net_1 net_1_0) resistor r=r_1_1_0*1M
+C_1_0_0 (net_1_0 0) capacitor c=c_1_0_0*1p
+R_2_0 (net_2 0) resistor r=r_2_0*1M

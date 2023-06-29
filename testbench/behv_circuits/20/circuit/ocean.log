@@ -1,0 +1,163 @@
+\# Program start time UTC 2022.11.13 11:47:50.363
+\# Local time Sunday 13 November 2022, 7:47 pm
+\o Program:		@(#)$CDS: virtuoso version 6.1.5 12/17/2012 14:39 (cic2009lnx) $
+\o Hierarchy:		/apps/EDAs/IC615/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.5.500.15  (32-bit addresses)
+\# Host name (type):	localhost.localdomain (x86_64)
+\# Operating system:	Linux 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+\# X display name (WxH):	:8 (1920x1080)
+\# Available geometry:			TL(0:28) BR(1919:1041)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12004000)
+\# X resource pool:	base 0x3200000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Memory report:	maximum data size 4294967295 (0xffffffff) bytes
+\# Memory report:	maximum process size 4294967295 (0xffffffff) bytes
+\# Initial sbrk value:	372686848 (0x1636c000) bytes
+\# Available memory:	363443400 (0x15a9b4c8) kilobytes
+\# System memory:	795197704 (0x2f65c108) kilobytes
+\# Maximum memory size:	3973246975 (0xecd2efff) bytes
+\# Max mem available:	3973246975 (0xecd2efff) bytes
+\# Initial memory used:	50966528 (0x309b000) bytes
+\# Qt version:		4.5.3
+\# Window Manager:	other
+\# User Name:		shenjinyi
+\o Working Directory:	localhost.localdomain:/home/shenjinyi/experiment/map_transistor/schematic_mapping/date22_circuits/FTBO_spectre_run4_modified/circuit
+\# Process Id:		27888
+\o 
+\o COPYRIGHT © 1992-2012  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           © 1992-2012  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\# Available memory:	363449296 (0x15a9cbd0) kilobytes UTC 2022.11.13 11:47:50.409
+\w *WARNING* (infile): /home/shenjinyi/.cdsenv is a directory
+\w *WARNING* (infile): not a normal file - /home/shenjinyi/.cdsenv
+\w *WARNING* (infile): not a normal file - /home/shenjinyi/.cdsenv
+\w *WARNING* (infile): not a normal file - /home/shenjinyi/.cdsenv
+\w *WARNING* (infile): not a normal file - /home/shenjinyi/.cdsenv
+\w *WARNING* (infile): not a normal file - /home/shenjinyi/.cdsenv
+\w *WARNING* (infile): not a normal file - /home/shenjinyi/.cdsenv
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading LVS.cxt 
+\o Loading layerProc.cxt 
+\w *WARNING* (infile): not a normal file - /home/shenjinyi/.cdsenv
+\o Loading xlUI.cxt 
+\w *WARNING* (infile): not a normal file - /home/shenjinyi/.cdsenv
+\w *WARNING* (infile): not a normal file - /home/shenjinyi/.cdsenv
+\o Loading auCore.cxt 
+\o Loading dcm.cxt 
+\o Loading vhdl.cxt 
+\w *WARNING* (infile): not a normal file - /home/shenjinyi/.cdsenv
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\w *WARNING* (infile): not a normal file - /home/shenjinyi/.cdsenv
+\o Loading ams.cxt 
+\o Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+\p ocean> 
+\i simulator( 'spectre )
+\t spectre
+\p ocean> 
+\i design(	 "./netlist/netlist")
+\t "./netlist/netlist"
+\p ocean> 
+\i resultsDir( "./sim_results" )
+\t "./sim_results"
+\p ocean> 
+\i ;modelFile('("/home/jialinlu/my_workspace/analog_topo_opt/analog_topo_opt_gae/version_4/template/model/crn65gplus_2d5_lk_v1d0.scs" "tt"))
+\i analysis('ac ?start "1"  ?stop "1G"  ?dec "100"  )
+\t "100"
+\p ocean> 
+\i desVar( "g_vin_1" 0.9433348230791737 )
+\t "0.9433348"
+\p ocean> 
+\i desVar( "rscl_vin_1_prs" 65.51004263091376 )
+\t "65.51004"
+\p ocean> 
+\i desVar( "g_1_2" 0.19390012434672735 )
+\t "0.1939001"
+\p ocean> 
+\i desVar( "rscl_1_2_prs" 55.13059001234603 )
+\t "55.13059"
+\p ocean> 
+\i desVar( "g_2_vo" 0.04793229971163712 )
+\t "0.0479323"
+\p ocean> 
+\i desVar( "rscl_2_vo_prs" 79.61571023264815 )
+\t "79.61571"
+\p ocean> 
+\i desVar( "gm_vin_2_vin" 0.618689674158944 )
+\t "0.6186897"
+\p ocean> 
+\i desVar( "r_vin_2_2" 7.70641340649741 )
+\t "7.706413"
+\p ocean> 
+\i desVar( "r_vin_2_00" 53.1485300571987 )
+\t "53.14853"
+\p ocean> 
+\i desVar( "c_vin_2_00" 0.8713809059378245 )
+\t "0.8713809"
+\p ocean> 
+\i desVar( "r_1_0" 0.9734198421033964 )
+\t "0.9734198"
+\p ocean> 
+\i envOption(
+\i 	'analysisOrder  list("ac") 
+\i )
+\t ("ac")
+\p ocean> 
+\i option( ?categ 'turboOpts
+\i         'uniMode  "APS"
+\i )
+\t "APS"
+\p ocean> 
+\i saveOption( ?saveahdlvars "selected" )
+\t "selected"
+\p ocean> 
+\i saveOption( 'currents "selected" )
+\t "selected"
+\p ocean> 
+\i saveOption( 'save "selected" )
+\t "selected"
+\p ocean> 
+\i save( 'v "net_vo" )
+\t "net_vo"
+\p ocean> 
+\i save( 'all )
+\t all
+\p ocean> 
+\i temp( 27 )
+\t "27"
+\p ocean> 
+\i run()
+\t "/home/shenjinyi/experiment/map_transistor/schematic_mapping/date22_circuits/FTBO_spectre_run4_modified/circuit/sim_results"
+\p ocean> 
+\i gain = value(db(vfreq('ac "net_vo")) 1)
+\t 86.62226
+\p ocean> 
+\i pm = phaseMargin(VF("net_vo"))
+\t 72.30432
+\p ocean> 
+\i gbw = cross(db(vfreq('ac "net_vo")) 0 1 "either" nil nil)
+\t 2421219.0
+\p ocean> 
+\i ocnPrint(?output "./sim.out", ?precision 16 ?width 20 ?numberNotation 'scientific gain pm gbw)
+\t t
+\p ocean> 
+\i ; plot( Pout ?expr '( "gain" ) )
+\i ; plot( thd ?expr '( "pm" ) )
+\i ; plot( Pdc ?expr '( "gbw" ) )
+\i exit
+\# Memory report: on exit 121188352 (0x7393000) bytes, UTC 2022.11.13 11:47:58.238
+\# Memory report: peak usage 121188352 (0x7393000) bytes

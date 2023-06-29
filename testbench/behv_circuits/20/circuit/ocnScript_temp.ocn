@@ -1,0 +1,32 @@
+simulator( 'spectre )
+design(	 "./netlist/netlist")
+resultsDir( "./sim_results" )
+;modelFile('("/home/jialinlu/my_workspace/analog_topo_opt/analog_topo_opt_gae/version_4/template/model/crn65gplus_2d5_lk_v1d0.scs" "tt"))
+analysis('ac ?start "1"  ?stop "1G"  ?dec "100"  )
+
+
+
+
+envOption(
+	'analysisOrder  list("ac") 
+)
+option( ?categ 'turboOpts
+        'uniMode  "APS"
+)
+saveOption( ?saveahdlvars "selected" )
+saveOption( 'currents "selected" )
+saveOption( 'save "selected" )
+save( 'v "net_vo" )
+save( 'all )
+temp( 27 )
+run()
+gain = value(db(vfreq('ac "net_vo")) 1)
+pm = phaseMargin(VF("net_vo"))
+gbw = cross(db(vfreq('ac "net_vo")) 0 1 "either" nil nil)
+ocnPrint(?output "./sim.out", ?precision 16 ?width 20 ?numberNotation 'scientific gain pm gbw)
+; plot( Pout ?expr '( "gain" ) )
+; plot( thd ?expr '( "pm" ) )
+; plot( Pdc ?expr '( "gbw" ) )
+
+exit
+

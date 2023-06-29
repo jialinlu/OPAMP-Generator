@@ -1,0 +1,8 @@
+This folder include nmos2v and pmos2v of tsmc18rf gmid sweep data,
+which has gmid vs ft / gmid vs gmro / gmid vs IdOverW respectively.
+
+The "L" is 50 (and a 5) sets of values between 0.18 and 2um
+
+The "VGS" is between 0.1 and 1V (VDD is 1.8V and VDS is fixed at 0.9V)
+
+

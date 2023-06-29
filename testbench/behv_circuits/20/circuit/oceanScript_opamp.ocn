@@ -1,0 +1,43 @@
+simulator( 'spectre )
+design(	 "./netlist/netlist")
+resultsDir( "./sim_results" )
+;modelFile('("/home/jialinlu/my_workspace/analog_topo_opt/analog_topo_opt_gae/version_4/template/model/crn65gplus_2d5_lk_v1d0.scs" "tt"))
+analysis('ac ?start "1"  ?stop "1G"  ?dec "100"  )
+
+
+desVar( "g_vin_1" 0.9433348230791737 )
+desVar( "rscl_vin_1_prs" 65.51004263091376 )
+desVar( "g_1_2" 0.19390012434672735 )
+desVar( "rscl_1_2_prs" 55.13059001234603 )
+desVar( "g_2_vo" 0.04793229971163712 )
+desVar( "rscl_2_vo_prs" 79.61571023264815 )
+desVar( "gm_vin_2_vin" 0.618689674158944 )
+desVar( "r_vin_2_2" 7.70641340649741 )
+desVar( "r_vin_2_00" 53.1485300571987 )
+desVar( "c_vin_2_00" 0.8713809059378245 )
+desVar( "r_1_0" 0.9734198421033964 )
+
+
+envOption(
+	'analysisOrder  list("ac") 
+)
+option( ?categ 'turboOpts
+        'uniMode  "APS"
+)
+saveOption( ?saveahdlvars "selected" )
+saveOption( 'currents "selected" )
+saveOption( 'save "selected" )
+save( 'v "net_vo" )
+save( 'all )
+temp( 27 )
+run()
+gain = value(db(vfreq('ac "net_vo")) 1)
+pm = phaseMargin(VF("net_vo"))
+gbw = cross(db(vfreq('ac "net_vo")) 0 1 "either" nil nil)
+ocnPrint(?output "./sim.out", ?precision 16 ?width 20 ?numberNotation 'scientific gain pm gbw)
+; plot( Pout ?expr '( "gain" ) )
+; plot( thd ?expr '( "pm" ) )
+; plot( Pdc ?expr '( "gbw" ) )
+
+exit
+
