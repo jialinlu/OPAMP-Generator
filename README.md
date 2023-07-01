@@ -7,7 +7,7 @@ This repo contains the topology optimizaiton algorithm and transistor-level circ
 
 https://github.com/jialinlu/work_release/assets/43021674/baaba8f4-3ffb-4228-8020-19292d345b36
 
-### Topology Optimization
+### Topology Optimization (topo_opt directory)
 
 1. Before running the code, please make sure that the Python (recommended 3.6.13) environment has "torch" (recommended 1.10.2) and "pygraphviz" (recommended 1.6) libraries installed, as well as other common scientific computing libraries;
 
@@ -31,7 +31,7 @@ python -W ignore optimization_bfgs.py --iteration 30 --save- appendix _Bfgs_exp1
 
 4. The training results of the VGAE model will be saved in the results folder, under which there is already a trained demo; the results of the topology optimization will be saved in the opt_results and tmp_circuits folders, and the circuit demo can be found in /schematic_mapping/behv_circuits.
 
-### Automatic Mapping of Transistor-level Circuits
+### Automatic Mapping of Transistor-level Circuits (schematic_mapping directory)
 
 1. Make sure that the libraries "hebo" and "pymoo" are installed in the Python (recommended 3.6.13) environment before running the code, as well as other common scientific computing libraries;
 
@@ -45,7 +45,7 @@ python -W ignore main.py --TITLE --MAP --SIM --OUT --REOPT1 --intrinsic_gain_tim
 4. The behavioral-level circuit models to be mapped need to be placed in the behv_circuits directory, and the mapped transistor-level circuits will be generated under mapped_circuits. The three circuits shown in the paper have been placed in the corresponding directory.
 Note: In the netlist of behavioral-level models and transistor-level circuits, the device sizes are all attempts of the last iteration of the BO program, so a direct simulation of them may not correspond to the optimal results shown in the paper.
 
-### Generated OPAMPs for Benchmarks
+### Generated OPAMPs for Benchmarks (testbench)
 
 The behv_circuits folder in testbench directory contains 32 behavior-level three-stage op-amp circuits searched by the automatic topology optimization program, which can be automatically transformed into transistor-level circuit netlists by the schematic_mapping program and optimized for sizing.
 
