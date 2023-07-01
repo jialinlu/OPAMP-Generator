@@ -29,7 +29,7 @@ or directly with the command:
 python -W ignore optimization_bfgs.py --iteration 30 --save- appendix _Bfgs_exp1_bound15 --nz 10 --which_gp sklearn --load_model_path _nz10_1w_demo --load_model_name 400 --emb_bound 15 --bfgs_time 200 -- samping_ratio 0.0001 --gpu 3
 ```
 
-4. The training results of the VGAE model will be saved in the results folder, under which there is already a trained demo; the results of the topology optimization will be saved in the opt_results and tmp_circuits folders, and the circuit demo can be found in... /schematic_mapping/behv_circuits.
+4. The training results of the VGAE model will be saved in the results folder, under which there is already a trained demo; the results of the topology optimization will be saved in the opt_results and tmp_circuits folders, and the circuit demo can be found in /schematic_mapping/behv_circuits.
 
 ### Automatic Mapping of Transistor-level Circuits
 
