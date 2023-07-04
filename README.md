@@ -9,9 +9,14 @@ https://github.com/jialinlu/work_release/assets/43021674/baaba8f4-3ffb-4228-8020
 
 ### Topology Optimization (topo_opt directory)
 
-1. Before running the code, please make sure that the Python (recommended 3.6.13) environment has "torch" (recommended 1.10.2) and "pygraphviz" (recommended 1.6) libraries installed, as well as other common scientific computing libraries;
+1. Before running the code, please make sure that the Python (recommended 3.6.13) environment has "torch" (recommended 1.9.1) and "pygraphviz" (recommended 1.6) libraries installed, as well as other common scientific computing libraries. The environment configuration can be found in the environment.yml file located in the root of this repository.
 
-2. The main training program of VGAE model is train.py, you can execute the training by
+2. Use the provided dataset /topo_opt/dataset_withoutY_1w.txt or generate a new training dataset by
+```bash
+python -W ignore get_dataset.py
+```
+
+3. The main training program of VGAE model is train.py, you can execute the training by
 ```bash
 source run_train.sh
 ```
@@ -20,7 +25,7 @@ or directly execute the command:
 python -W ignore train.py --model DVAE_test2 --data_file dataset_ withoutY_1w --batch_size 16 --save-appendix _1w --lr 1e-5 --gpu 1
 ```
 
-3. The main program for performing topology optimization is optimization_bfgs.py, which can be executed with
+4. The main program for performing topology optimization is optimization_bfgs.py, which can be executed with
 ```bash
 source run_opt.sh
 ```
@@ -29,7 +34,7 @@ or directly with the command:
 python -W ignore optimization_bfgs.py --iteration 30 --save- appendix _Bfgs_exp1_bound15 --nz 10 --which_gp sklearn --load_model_path _nz10_1w_demo --load_model_name 400 --emb_bound 15 --bfgs_time 200 -- samping_ratio 0.0001 --gpu 3
 ```
 
-4. The training results of the VGAE model will be saved in the results folder, under which there is already a trained demo; the results of the topology optimization will be saved in the opt_results and tmp_circuits folders, and the circuit demo can be found in /schematic_mapping/behv_circuits.
+5. The training results of the VGAE model will be saved in the results folder, under which there is already a trained demo; the results of the topology optimization will be saved in the opt_results and tmp_circuits folders, and the circuit demo can be found in /schematic_mapping/behv_circuits.
 
 ### Automatic Mapping of Transistor-level Circuits (schematic_mapping directory)
 
