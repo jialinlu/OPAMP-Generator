@@ -80,3 +80,5 @@ Please cite the following papers if this repo is used in your project.
 1. J. Lu, L. Lei, F. Yang, C. Yan and X. Zeng, "Automated Compensation Scheme Design for Operational Amplifier via Bayesian Optimization," 2021 58th ACM/IEEE Design Automation Conference (DAC), San Francisco, CA, USA, 2021, pp. 517-522, doi: 10.1109/DAC18074.2021.9586306.
 
 2. J. Lu, L. Lei, F. Yang, L. Shang and X. Zeng, "Topology Optimization of Operational Amplifier in Continuous Space via Graph Embedding," 2022 Design, Automation & Test in Europe Conference & Exhibition (DATE), Antwerp, Belgium, 2022, pp. 142-147, doi: 10.23919/DATE54114.2022.9774676.
+
+3. J. Lu, L. Lei, F. Yang, L. Shang and X. Zeng, "Automatic Op-Amp Generation from Specification to Layout", IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2023.
